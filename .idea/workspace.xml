@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2cb67d12-b57f-44fd-8e1c-b14073494514" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/unit/fixtures/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/unit/fixtures/data/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/unit/templates/fixtures/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/_output/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/fixtures/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/templates/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/APAuto.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/acceptance/AboutCept.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/functional/AboutCept.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/_pages/AboutPage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/acceptance/ContactCept.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/functional/ContactCept.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/models/ContactForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/unit/models/ContactFormTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/_pages/ContactPage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/commands/HelloController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/acceptance/HomeCept.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/functional/HomeCept.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/acceptance/LoginCept.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/functional/LoginCept.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/models/LoginForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/unit/models/LoginFormTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/_pages/LoginPage.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/models/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/unit/models/UserTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/acceptance/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/bin/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/functional/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/unit/_bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/views/site/about.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/config/acceptance.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/acceptance.suite.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/composer.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/config/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/config/console.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/views/site/contact.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/views/site/contact_OLD.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/config/db.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/views/layouts/empty.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/config/functional.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/functional.suite.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/mail/layouts/html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/requirements.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/config/unit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/unit.suite.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/config/web.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/bin/yii.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/bin/yii" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\Vagrantfile" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\admin\config\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\admin\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\admin\config\main.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\admin\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\admin\models\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\config\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\config\main.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\config\params.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\mail\layouts\html.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\mail\layouts\text.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\mail\passwordResetToken-html.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\mail\passwordResetToken-text.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\models\LoginForm.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\models\User.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\widgets\Alert.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\config\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\config\main.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\config\params.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\controllers\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\migrations\m130524_201442_init.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\models\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\runtime\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\backend\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\backend\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\backend\web\index-test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\backend\web\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\common\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\common\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\console\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\console\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\frontend\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\frontend\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\frontend\web\index-test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\frontend\web\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\tests\codeception\config\config-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\yii" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\backend\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\backend\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\backend\web\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\common\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\common\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\console\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\console\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\frontend\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\frontend\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\frontend\web\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\tests\codeception\config\config-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\yii" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\assets\AppAsset.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\config\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\config\main-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\config\main.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\config\params-local.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\config\params.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\controllers\SiteController.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\models\ContactForm.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\models\PasswordResetRequestForm.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\models\ResetPasswordForm.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\models\SignupForm.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\runtime\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\layouts\main.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\site\about.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\site\contact.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\site\error.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\site\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\site\login.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\site\requestPasswordResetToken.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\site\resetPassword.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\site\signup.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\web\assets\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\web\css\site.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\web\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\web\index-test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\web\index.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\web\robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\init" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\init.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\requirements.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\acceptance.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\acceptance\LoginCept.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\acceptance\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\codeception.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\functional.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\functional\LoginCept.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\functional\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\unit.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\unit\DbTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\unit\TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\unit\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\unit\fixtures\data\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\bin\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\bin\yii" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\bin\yii.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\_pages\LoginPage.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\_support\FixtureHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\codeception.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\fixtures\UserFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\fixtures\data\init_login.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\templates\fixtures\user.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\unit.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\unit\DbTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\unit\TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\unit\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\unit\fixtures\data\models\user.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\unit\models\LoginFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\acceptance.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\backend\acceptance.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\backend\config.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\backend\functional.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\backend\unit.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\common\unit.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\config.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\console\unit.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\frontend\acceptance.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\frontend\config.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\frontend\functional.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\frontend\unit.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\functional.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\unit.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\console\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\console\codeception.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\console\unit.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\console\unit\DbTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\console\unit\TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\console\unit\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\console\unit\fixtures\data\.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\_pages\AboutPage.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\_pages\ContactPage.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\_pages\SignupPage.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\acceptance.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\acceptance\AboutCept.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\acceptance\ContactCept.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\acceptance\HomeCept.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\acceptance\LoginCept.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\acceptance\SignupCest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\acceptance\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\codeception.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\functional.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\functional\AboutCept.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\functional\ContactCept.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\functional\HomeCept.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\functional\LoginCept.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\functional\SignupCest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\functional\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit.suite.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit\DbTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit\TestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit\_bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit\fixtures\data\models\user.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit\models\ContactFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit\models\PasswordResetRequestFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit\models\ResetPasswordFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit\models\SignupFormTest.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\yii.bat" afterPath="" />
+      <change type="MOVED" beforePath="C:\wamp\www\APAuto\.bowerrc" afterPath="$PROJECT_DIR$/admin/.bowerrc" />
+      <change type="MOVED" beforePath="C:\wamp\www\APAuto\.gitignore" afterPath="$PROJECT_DIR$/admin/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/assets/AppAsset.php" afterPath="$PROJECT_DIR$/admin/assets/AppAsset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controllers/SiteController.php" afterPath="$PROJECT_DIR$/admin/controllers/SiteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/web/index-test.php" afterPath="$PROJECT_DIR$/admin/web/index-test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views/site/index.php" afterPath="$PROJECT_DIR$/admin/views/site/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/web/index.php" afterPath="$PROJECT_DIR$/admin/web/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views/site/login.php" afterPath="$PROJECT_DIR$/admin/views/site/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views/layouts/main.php" afterPath="$PROJECT_DIR$/admin/views/layouts/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/config/params.php" afterPath="$PROJECT_DIR$/admin/config/params.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/web/robots.txt" afterPath="$PROJECT_DIR$/admin/web/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/web/css/site.css" afterPath="$PROJECT_DIR$/admin/web/css/site.css" />
+    </list>
+    <ignored path="APAuto.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="APAuto" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/views/layouts/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="1887">
+              <caret line="11" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <folding>
+                <element signature="e#66#87#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1464160860882" expanded="true" signature="1609:1642" placeholder="..." />
+                <marker date="1464160860882" expanded="true" signature="1773:1806" placeholder="..." />
+                <marker date="1464160860882" expanded="true" signature="2142:2183" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/controllers/SiteController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.2" vertical-offset="306" max-vertical-offset="1496">
+              <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="empty.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/views/layouts/empty.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.346153" vertical-offset="161" max-vertical-offset="1054">
+              <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+              <folding>
+                <element signature="e#66#87#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/views/site/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="680">
+              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginForm.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/models/LoginForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4669653" vertical-offset="314" max-vertical-offset="1649">
+              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/models/ContactForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.153846" vertical-offset="280" max-vertical-offset="1190">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="43" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="params.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/config/params.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="187">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/config/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/config/console.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="867">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/config/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1241">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/admin/web/css/site.css" />
+        <option value="$PROJECT_DIR$/admin/assets/AppAsset.php" />
+        <option value="$PROJECT_DIR$/admin/views/site/contacts.php" />
+        <option value="$PROJECT_DIR$/admin/views/site/index.php" />
+        <option value="$PROJECT_DIR$/admin/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/admin/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/admin/views/layouts/empty.php" />
+        <option value="$PROJECT_DIR$/admin/config/web.php" />
+        <option value="$PROJECT_DIR$/admin/views/site/login.php" />
+        <option value="$PROJECT_DIR$/admin/models/ContactForm.php" />
+        <option value="$PROJECT_DIR$/admin/models/LoginForm.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cb67d12-b57f-44fd-8e1c-b14073494514" name="Default" comment="" />
+      <created>1464100530384</created>
+      <option name="number" value="Default" />
+      <updated>1464100530384</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/admin/vendor/yiisoft/yii2/web/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34266517" vertical-offset="1887" max-vertical-offset="9775">
+          <caret line="136" column="20" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/web/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.793103" vertical-offset="0" max-vertical-offset="6477">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/site/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/site/contact_OLD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/site/error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/site/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="255">
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/vendor/yiisoft/yii2/web/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2474804" vertical-offset="0" max-vertical-offset="2686">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="544">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/vendor/yiisoft/yii2/web/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34266517" vertical-offset="5117" max-vertical-offset="12308">
+          <caret line="326" column="20" selection-start-line="326" selection-start-column="20" selection-end-line="326" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/vendor/yiisoft/yii2/filters/AccessControl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="19.923077" vertical-offset="1317" max-vertical-offset="2567">
+          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/assets/AppAsset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="612">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/vendor/yiisoft/yii2/web/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.29090908" vertical-offset="205" max-vertical-offset="3536">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/vendor/yiisoft/yii2/base/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.945455" vertical-offset="5577" max-vertical-offset="8806">
+          <caret line="361" column="29" selection-start-line="361" selection-start-column="29" selection-end-line="361" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/layouts/empty.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.346153" vertical-offset="161" max-vertical-offset="1054">
+          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+          <folding>
+            <element signature="e#66#87#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config/params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config/console.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1241">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.2" vertical-offset="306" max-vertical-offset="1496">
+          <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="1887">
+          <caret line="11" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding>
+            <element signature="e#66#87#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1464160860882" expanded="true" signature="1609:1642" placeholder="..." />
+            <marker date="1464160860882" expanded="true" signature="1773:1806" placeholder="..." />
+            <marker date="1464160860882" expanded="true" signature="2142:2183" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/site/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="680">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/ContactForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.153846" vertical-offset="280" max-vertical-offset="1190">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/LoginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4669653" vertical-offset="314" max-vertical-offset="1649">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
