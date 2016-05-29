@@ -2,250 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cb67d12-b57f-44fd-8e1c-b14073494514" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/unit/fixtures/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/unit/fixtures/data/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/unit/templates/fixtures/.gitkeep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/_output/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/fixtures/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/templates/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/APAuto.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/acceptance/AboutCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/functional/AboutCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/_pages/AboutPage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/acceptance/ContactCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/functional/ContactCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/models/ContactForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/unit/models/ContactFormTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/_pages/ContactPage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/commands/HelloController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/acceptance/HomeCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/functional/HomeCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/acceptance/LoginCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/functional/LoginCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/models/LoginForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/unit/models/LoginFormTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/_pages/LoginPage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/models/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/unit/models/UserTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/acceptance/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/bin/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/functional/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/unit/_bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/views/site/about.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/config/acceptance.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/acceptance.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/config/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/config/console.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/views/site/contact.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/views/site/contact_OLD.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/config/db.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/views/layouts/empty.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/config/functional.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/functional.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/mail/layouts/html.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/requirements.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/config/unit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/unit.suite.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/config/web.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/bin/yii.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/tests/codeception/bin/yii" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\Vagrantfile" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\admin\config\bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\admin\config\main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\admin\config\main.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\admin\config\params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\admin\models\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\config\bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\config\main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\config\main.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\config\params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\config\params.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\mail\layouts\html.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\mail\layouts\text.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\mail\passwordResetToken-html.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\mail\passwordResetToken-text.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\models\LoginForm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\models\User.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\common\widgets\Alert.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\composer.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\composer.lock" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\config\bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\config\main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\config\main.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\config\params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\config\params.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\controllers\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\migrations\m130524_201442_init.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\models\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\console\runtime\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\backend\config\main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\backend\config\params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\backend\web\index-test.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\backend\web\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\common\config\main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\common\config\params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\console\config\main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\console\config\params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\frontend\config\main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\frontend\config\params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\frontend\web\index-test.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\frontend\web\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\tests\codeception\config\config-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\dev\yii" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\backend\config\main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\backend\config\params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\backend\web\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\common\config\main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\common\config\params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\console\config\main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\console\config\params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\frontend\config\main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\frontend\config\params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\frontend\web\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\tests\codeception\config\config-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\environments\prod\yii" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\assets\AppAsset.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\config\bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\config\main-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\config\main.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\config\params-local.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\config\params.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\controllers\SiteController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\models\ContactForm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\models\PasswordResetRequestForm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\models\ResetPasswordForm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\models\SignupForm.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\runtime\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\layouts\main.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\site\about.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\site\contact.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\site\error.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\site\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\site\login.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\site\requestPasswordResetToken.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\site\resetPassword.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\views\site\signup.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\web\assets\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\web\css\site.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\web\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\web\index-test.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\web\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\frontend\web\robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\init" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\init.bat" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\requirements.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\acceptance.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\acceptance\LoginCept.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\acceptance\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\codeception.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\functional.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\functional\LoginCept.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\functional\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\unit.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\unit\DbTestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\unit\TestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\unit\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\admin\unit\fixtures\data\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\bin\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\bin\yii" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\bin\yii.bat" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\_pages\LoginPage.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\_support\FixtureHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\codeception.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\fixtures\UserFixture.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\fixtures\data\init_login.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\templates\fixtures\user.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\unit.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\unit\DbTestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\unit\TestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\unit\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\unit\fixtures\data\models\user.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\common\unit\models\LoginFormTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\acceptance.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\backend\acceptance.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\backend\config.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\backend\functional.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\backend\unit.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\common\unit.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\config.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\console\unit.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\frontend\acceptance.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\frontend\config.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\frontend\functional.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\frontend\unit.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\functional.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\config\unit.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\console\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\console\codeception.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\console\unit.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\console\unit\DbTestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\console\unit\TestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\console\unit\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\console\unit\fixtures\data\.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\_pages\AboutPage.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\_pages\ContactPage.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\_pages\SignupPage.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\acceptance.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\acceptance\AboutCept.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\acceptance\ContactCept.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\acceptance\HomeCept.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\acceptance\LoginCept.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\acceptance\SignupCest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\acceptance\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\codeception.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\functional.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\functional\AboutCept.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\functional\ContactCept.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\functional\HomeCept.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\functional\LoginCept.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\functional\SignupCest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\functional\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit.suite.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit\DbTestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit\TestCase.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit\_bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit\fixtures\data\models\user.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit\models\ContactFormTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit\models\PasswordResetRequestFormTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit\models\ResetPasswordFormTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\tests\codeception\frontend\unit\models\SignupFormTest.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\APAuto\yii.bat" afterPath="" />
-      <change type="MOVED" beforePath="C:\wamp\www\APAuto\.bowerrc" afterPath="$PROJECT_DIR$/admin/.bowerrc" />
-      <change type="MOVED" beforePath="C:\wamp\www\APAuto\.gitignore" afterPath="$PROJECT_DIR$/admin/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/views/site/leasing.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/migrations/m130524_201442_init.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/assets/AppAsset.php" afterPath="$PROJECT_DIR$/admin/assets/AppAsset.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/controllers/SiteController.php" afterPath="$PROJECT_DIR$/admin/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/web/index-test.php" afterPath="$PROJECT_DIR$/admin/web/index-test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views/site/index.php" afterPath="$PROJECT_DIR$/admin/views/site/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/web/index.php" afterPath="$PROJECT_DIR$/admin/web/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views/site/login.php" afterPath="$PROJECT_DIR$/admin/views/site/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/models/User.php" afterPath="$PROJECT_DIR$/admin/models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/composer.json" afterPath="$PROJECT_DIR$/admin/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/composer.lock" afterPath="$PROJECT_DIR$/admin/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views/site/contact.php" afterPath="$PROJECT_DIR$/admin/views/site/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/config/db.php" afterPath="$PROJECT_DIR$/admin/config/db.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/views/layouts/main.php" afterPath="$PROJECT_DIR$/admin/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/config/params.php" afterPath="$PROJECT_DIR$/admin/config/params.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/web/robots.txt" afterPath="$PROJECT_DIR$/admin/web/robots.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/web/css/site.css" afterPath="$PROJECT_DIR$/admin/web/css/site.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/config/web.php" afterPath="$PROJECT_DIR$/admin/config/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="APAuto.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -273,15 +42,32 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="1887">
-              <caret line="11" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+            <state vertical-scroll-proportion="-20.923077" vertical-offset="1020" max-vertical-offset="2312">
+              <caret line="94" column="66" selection-start-line="94" selection-start-column="66" selection-end-line="94" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/views/site/contact.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="1003">
+              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding>
-                <element signature="e#66#87#0#PHP" expanded="true" />
-                <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1464160860882" expanded="true" signature="1609:1642" placeholder="..." />
-                <marker date="1464160860882" expanded="true" signature="1773:1806" placeholder="..." />
-                <marker date="1464160860882" expanded="true" signature="2142:2183" placeholder="..." />
+                <element signature="e#6#53#0#PHP" expanded="true" />
+                <element signature="e#1617#1642#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseArrayHelper.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.423077" vertical-offset="7268" max-vertical-offset="12733">
+              <caret line="451" column="27" selection-start-line="451" selection-start-column="27" selection-end-line="451" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -289,92 +75,86 @@
       <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.2" vertical-offset="306" max-vertical-offset="1496">
-              <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="empty.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/views/layouts/empty.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.346153" vertical-offset="161" max-vertical-offset="1054">
-              <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+            <state vertical-scroll-proportion="-12.381818" vertical-offset="1121" max-vertical-offset="2176">
+              <caret line="106" column="37" selection-start-line="106" selection-start-column="37" selection-end-line="106" selection-end-column="37" />
               <folding>
-                <element signature="e#66#87#0#PHP" expanded="true" />
+                <element signature="e#35#59#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/views/site/login.php">
+      <file leaf-file-name="leasing.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/views/site/leasing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="680">
-              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.09518477" vertical-offset="0" max-vertical-offset="952">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m160525_201240_language.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/migrations/m160525_201240_language.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="816">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <marker date="1464208535488" expanded="true" signature="122:312" placeholder="CREATE TABLE..IF..." />
+                <marker date="1464208535488" expanded="true" signature="419:495" placeholder="INSERT INTO ..." />
+                <marker date="1464208535488" expanded="true" signature="523:598" placeholder="INSERT INTO ..." />
+                <marker date="1464208535488" expanded="true" signature="626:701" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginForm.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/models/LoginForm.php">
+      <file leaf-file-name="m160525_222059_simple_page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/migrations/m160525_222059_simple_page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4669653" vertical-offset="314" max-vertical-offset="1649">
-              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+            <state vertical-scroll-proportion="-11.072727" vertical-offset="71" max-vertical-offset="1445">
+              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+              <folding>
+                <marker date="1464341606756" expanded="true" signature="133:286" placeholder="CREATE TABLE..IF..." />
+                <marker date="1464341606756" expanded="true" signature="351:1472" placeholder="CREATE TABLE..IF..." />
+                <marker date="1464341606756" expanded="true" signature="1587:1643" placeholder="INSERT INTO ..." />
+                <marker date="1464341606756" expanded="true" signature="1671:1726" placeholder="INSERT INTO ..." />
+                <marker date="1464341606756" expanded="true" signature="1816:1938" placeholder="INSERT INTO ..." />
+                <marker date="1464341606756" expanded="true" signature="1966:2088" placeholder="INSERT INTO ..." />
+                <marker date="1464341606756" expanded="true" signature="2116:2238" placeholder="INSERT INTO ..." />
+                <marker date="1464341606756" expanded="true" signature="2267:2389" placeholder="INSERT INTO ..." />
+                <marker date="1464341606756" expanded="true" signature="2417:2539" placeholder="INSERT INTO ..." />
+                <marker date="1464341606756" expanded="true" signature="2567:2689" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_OLD.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/views/site/contact_OLD.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-23.23077" vertical-offset="331" max-vertical-offset="1224">
+              <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="59" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactForm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/models/ContactForm.php">
+      <file leaf-file-name="SimplePage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/models/SimplePage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.153846" vertical-offset="280" max-vertical-offset="1190">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="43" selection-end-column="5" />
+            <state vertical-scroll-proportion="-16.384615" vertical-offset="135" max-vertical-offset="1054">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="params.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/config/params.php">
+      <file leaf-file-name="SimplePageLanguage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/models/SimplePageLanguage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="187">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/config/db.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/config/console.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="867">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/config/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1241">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state vertical-scroll-proportion="-17.307692" vertical-offset="162" max-vertical-offset="1462">
+              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -388,17 +168,29 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/web/css/site.css" />
-        <option value="$PROJECT_DIR$/admin/assets/AppAsset.php" />
         <option value="$PROJECT_DIR$/admin/views/site/contacts.php" />
         <option value="$PROJECT_DIR$/admin/views/site/index.php" />
-        <option value="$PROJECT_DIR$/admin/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/admin/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/admin/views/layouts/empty.php" />
-        <option value="$PROJECT_DIR$/admin/config/web.php" />
         <option value="$PROJECT_DIR$/admin/views/site/login.php" />
         <option value="$PROJECT_DIR$/admin/models/ContactForm.php" />
         <option value="$PROJECT_DIR$/admin/models/LoginForm.php" />
+        <option value="$PROJECT_DIR$/admin/migrations/m160525_201240_language.php" />
+        <option value="$PROJECT_DIR$/admin/config/db.php" />
+        <option value="$PROJECT_DIR$/admin/migrations/m130524_201442_init.php" />
+        <option value="$PROJECT_DIR$/admin/models/User.php" />
+        <option value="$PROJECT_DIR$/admin/config/web.php" />
+        <option value="$PROJECT_DIR$/admin/models/SimplePage.php" />
+        <option value="$PROJECT_DIR$/admin/assets/AppAsset.php" />
+        <option value="$PROJECT_DIR$/admin/models/Language.php" />
+        <option value="$PROJECT_DIR$/admin/web/css/flag-icon.css" />
+        <option value="$PROJECT_DIR$/admin/web/css/site.css" />
+        <option value="$PROJECT_DIR$/admin/composer.json" />
+        <option value="$PROJECT_DIR$/admin/migrations/m160525_222059_simple_page.php" />
+        <option value="$PROJECT_DIR$/admin/models/SimplePageLanguage.php" />
+        <option value="$PROJECT_DIR$/admin/views/site/contact.php" />
+        <option value="$PROJECT_DIR$/admin/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/admin/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/admin/views/site/leasing.php" />
       </list>
     </option>
   </component>
@@ -435,6 +227,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -452,8 +245,36 @@
               <option name="myItemId" value="APAuto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -533,7 +354,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -551,7 +372,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -575,11 +396,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/wamp/www/APAuto/admin/migrations/m130524_201442_init.php" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\APAuto\admin\views\site" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -596,15 +423,24 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2cb67d12-b57f-44fd-8e1c-b14073494514" name="Default" comment="" />
@@ -615,25 +451,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -660,6 +496,88 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/admin/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1496">
+          <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+          <folding>
+            <element signature="e#35#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/site/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="680">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/LoginForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="1649">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1054">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/site/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="714">
+          <caret line="22" column="6" selection-start-line="21" selection-start-column="5" selection-end-line="22" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#53#0#PHP" expanded="true" />
+            <element signature="e#1617#1642#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/ContactForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="1190">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="43" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config/console.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1241">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/vendor/yiisoft/yii2/web/View.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34266517" vertical-offset="1887" max-vertical-offset="9775">
@@ -668,27 +586,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/web/css/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.793103" vertical-offset="0" max-vertical-offset="6477">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/views/site/about.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/site/contact_OLD.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1224">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,15 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/site/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="255">
-          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="544">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,14 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="19.923077" vertical-offset="1317" max-vertical-offset="2567">
           <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/assets/AppAsset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="612">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -768,9 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.346153" vertical-offset="161" max-vertical-offset="1054">
           <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-          <folding>
-            <element signature="e#66#87#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,15 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/config/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,53 +665,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/config/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1241">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.2" vertical-offset="306" max-vertical-offset="1496">
-          <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="1887">
-          <caret line="11" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding>
-            <element signature="e#66#87#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1464160860882" expanded="true" signature="1609:1642" placeholder="..." />
-            <marker date="1464160860882" expanded="true" signature="1773:1806" placeholder="..." />
-            <marker date="1464160860882" expanded="true" signature="2142:2183" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/views/site/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/models/ContactForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.153846" vertical-offset="280" max-vertical-offset="1190">
+        <state vertical-scroll-proportion="0.2956327" vertical-offset="280" max-vertical-offset="1190">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="43" selection-end-column="5" />
           <folding />
         </state>
@@ -848,8 +678,252 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/models/LoginForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4669653" vertical-offset="314" max-vertical-offset="1649">
+        <state vertical-scroll-proportion="-16.038462" vertical-offset="314" max-vertical-offset="1649">
           <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/site/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="680">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/migrations/m130524_201442_init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="680">
+          <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+          <folding>
+            <marker date="1464216576520" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1464216576520" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1464216576520" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1464216576520" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1464216576520" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1464216576520" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1464216576520" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1464216576520" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KDUP/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34266517" vertical-offset="0" max-vertical-offset="2193">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KDUP/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../KDUP/config/ldap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2474804" vertical-offset="0" max-vertical-offset="893">
+          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="3213">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#30#38#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="919">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/assets/AppAsset.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="629">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1241">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/web/css/flag-icon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/web/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5588" max-vertical-offset="6579">
+          <caret line="377" column="0" selection-start-line="377" selection-start-column="0" selection-end-line="377" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.307692" vertical-offset="135" max-vertical-offset="1088">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/vendor/yiisoft/yii2/db/ActiveQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34266517" vertical-offset="6324" max-vertical-offset="13498">
+          <caret line="394" column="20" selection-start-line="394" selection-start-column="20" selection-end-line="394" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/Language.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/vendor/brussens/yii2-bootstrap-select/Widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.290909" vertical-offset="0" max-vertical-offset="1088">
+          <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/vendor/yiisoft/yii2/helpers/BaseHtml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.2363634" vertical-offset="25892" max-vertical-offset="36805">
+          <caret line="1549" column="40" selection-start-line="1549" selection-start-column="9" selection-end-line="1549" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/site/contact_OLD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.23077" vertical-offset="331" max-vertical-offset="1224">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="59" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.423077" vertical-offset="7268" max-vertical-offset="12733">
+          <caret line="451" column="27" selection-start-line="451" selection-start-column="27" selection-end-line="451" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/migrations/m160525_222059_simple_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.072727" vertical-offset="71" max-vertical-offset="1445">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+          <folding>
+            <marker date="1464341606756" expanded="true" signature="133:286" placeholder="CREATE TABLE..IF..." />
+            <marker date="1464341606756" expanded="true" signature="351:1472" placeholder="CREATE TABLE..IF..." />
+            <marker date="1464341606756" expanded="true" signature="1587:1643" placeholder="INSERT INTO ..." />
+            <marker date="1464341606756" expanded="true" signature="1671:1726" placeholder="INSERT INTO ..." />
+            <marker date="1464341606756" expanded="true" signature="1816:1938" placeholder="INSERT INTO ..." />
+            <marker date="1464341606756" expanded="true" signature="1966:2088" placeholder="INSERT INTO ..." />
+            <marker date="1464341606756" expanded="true" signature="2116:2238" placeholder="INSERT INTO ..." />
+            <marker date="1464341606756" expanded="true" signature="2267:2389" placeholder="INSERT INTO ..." />
+            <marker date="1464341606756" expanded="true" signature="2417:2539" placeholder="INSERT INTO ..." />
+            <marker date="1464341606756" expanded="true" signature="2567:2689" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/migrations/m160525_201240_language.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="816">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <marker date="1464208535488" expanded="true" signature="122:312" placeholder="CREATE TABLE..IF..." />
+            <marker date="1464208535488" expanded="true" signature="419:495" placeholder="INSERT INTO ..." />
+            <marker date="1464208535488" expanded="true" signature="523:598" placeholder="INSERT INTO ..." />
+            <marker date="1464208535488" expanded="true" signature="626:701" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/SimplePageLanguage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.307692" vertical-offset="162" max-vertical-offset="1462">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/models/SimplePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.384615" vertical-offset="135" max-vertical-offset="1054">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/site/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="1003">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding>
+            <element signature="e#6#53#0#PHP" expanded="true" />
+            <element signature="e#1617#1642#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.923077" vertical-offset="1020" max-vertical-offset="2312">
+          <caret line="94" column="66" selection-start-line="94" selection-start-column="66" selection-end-line="94" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.381818" vertical-offset="1121" max-vertical-offset="2176">
+          <caret line="106" column="37" selection-start-line="106" selection-start-column="37" selection-end-line="106" selection-end-column="37" />
+          <folding>
+            <element signature="e#35#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/views/site/leasing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09518477" vertical-offset="0" max-vertical-offset="952">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding />
         </state>
       </provider>

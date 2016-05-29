@@ -6,7 +6,7 @@ use yii\bootstrap\Html;
 
 ?>
 
-<h1>Kontakti</h1><hr />
+<h1>Līzings</h1><hr />
 
 <?php if(Yii::$app->session->hasFlash('success')): ?>
     <div class="alert alert-success">

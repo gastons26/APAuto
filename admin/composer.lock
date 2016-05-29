@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "479407875c975e7dbee0aefcb85e62d5",
+    "hash": "e089e6cce035d834f2f19b10833ec654",
+    "content-hash": "7af20c6582de52aae26ccfbfef83436b",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -53,6 +54,179 @@
                 "mobile-first",
                 "responsive",
                 "web"
+            ]
+        },
+        {
+            "name": "bower-asset/bootstrap-select",
+            "version": "v1.7.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silviomoreto/bootstrap-select.git",
+                "reference": "265257d035dd3d7e42a5500164d8a2195511e6ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silviomoreto/bootstrap-select/zipball/265257d035dd3d7e42a5500164d8a2195511e6ac",
+                "reference": "265257d035dd3d7e42a5500164d8a2195511e6ac",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.8"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "less/bootstrap-select.less",
+                    "dist/css/bootstrap-select.css",
+                    "dist/js/bootstrap-select.js"
+                ],
+                "bower-asset-ignore": [
+                    ".gitignore",
+                    "CONTRIBUTING.md",
+                    "Gruntfile.js",
+                    "README.md",
+                    "composer.json",
+                    "package.json",
+                    "test.html"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "keywords": [
+                "bootstrap",
+                "form",
+                "replacement",
+                "select"
+            ]
+        },
+        {
+            "name": "bower-asset/font-awesome",
+            "version": "v4.6.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FortAwesome/Font-Awesome.git",
+                "reference": "8e241f209faa1dd2182c9fdc9c352d8806504a4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/8e241f209faa1dd2182c9fdc9c352d8806504a4e",
+                "reference": "8e241f209faa1dd2182c9fdc9c352d8806504a4e",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "less/font-awesome.less",
+                    "scss/font-awesome.scss"
+                ],
+                "bower-asset-ignore": [
+                    "*/.*",
+                    "*.json",
+                    "src",
+                    "*.yml",
+                    "Gemfile",
+                    "Gemfile.lock",
+                    "*.md"
+                ]
+            },
+            "license": [
+                "OFL-1.1",
+                "MIT",
+                "CC-BY-3.0"
+            ],
+            "description": "Font Awesome"
+        },
+        {
+            "name": "bower-asset/froala-wysiwyg-editor",
+            "version": "v2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/froala/wysiwyg-editor.git",
+                "reference": "cf135c49aeb6a488d35eee0996bc737aec64a759"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/froala/wysiwyg-editor/zipball/cf135c49aeb6a488d35eee0996bc737aec64a759",
+                "reference": "cf135c49aeb6a488d35eee0996bc737aec64a759",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/font-awesome": ">=4.4.0",
+                "bower-asset/jquery": ">=1.11.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "css/froala_editor.min.css",
+                    "css/froala_editor.pkgd.min.css",
+                    "css/froala_style.min.css",
+                    "css/plugins/char_counter.min.css",
+                    "css/plugins/code_view.min.css",
+                    "css/plugins/colors.min.css",
+                    "css/plugins/draggable.min.css",
+                    "css/plugins/emoticons.min.css",
+                    "css/plugins/file.min.css",
+                    "css/plugins/fullscreen.min.css",
+                    "css/plugins/image_manager.min.css",
+                    "css/plugins/image.min.css",
+                    "css/plugins/line_breaker.min.css",
+                    "css/plugins/quick_insert.min.css",
+                    "css/plugins/table.min.css",
+                    "css/plugins/video.min.css",
+                    "js/froala_editor.min.js",
+                    "js/froala_editor.pkgd.min.js",
+                    "js/plugins/align.min.js",
+                    "js/plugins/char_counter.min.js",
+                    "js/plugins/code_beautifier.min.js",
+                    "js/plugins/code_view.min.js",
+                    "js/plugins/colors.min.js",
+                    "js/plugins/draggable.min.js",
+                    "js/plugins/emoticons.min.js",
+                    "js/plugins/entities.min.js",
+                    "js/plugins/file.min.js",
+                    "js/plugins/font_family.min.js",
+                    "js/plugins/font_size.min.js",
+                    "js/plugins/fullscreen.min.js",
+                    "js/plugins/image.min.js",
+                    "js/plugins/image_manager.min.js",
+                    "js/plugins/inline_style.min.js",
+                    "js/plugins/line_breaker.min.js",
+                    "js/plugins/link.min.js",
+                    "js/plugins/lists.min.js",
+                    "js/plugins/paragraph_format.min.js",
+                    "js/plugins/paragraph_style.min.js",
+                    "js/plugins/quick_insert.min.js",
+                    "js/plugins/quote.min.js",
+                    "js/plugins/save.min.js",
+                    "js/plugins/table.min.js",
+                    "js/plugins/url.min.js",
+                    "js/plugins/video.min.js"
+                ],
+                "bower-asset-ignore": [
+                    "html",
+                    "img",
+                    "package.json"
+                ]
+            },
+            "license": [
+                "https://www.froala.com/wysiwyg-editor/pricing"
+            ],
+            "description": "A beautiful jQuery WYSIWYG HTML rich text editor. High performance and modern design make it easy to use for developers and loved by users.",
+            "keywords": [
+                "editor",
+                "froala",
+                "froala-editor",
+                "froala-wysiwyg",
+                "html",
+                "javascript",
+                "jquery",
+                "jquery-plugin",
+                "rich editor",
+                "rich text editor",
+                "rte",
+                "text",
+                "wysiwyg"
             ]
         },
         {
@@ -195,6 +369,49 @@
             ]
         },
         {
+            "name": "brussens/yii2-bootstrap-select",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brussens/yii2-bootstrap-select.git",
+                "reference": "3f26422d79409ea6e6514a8a32250687c43ce0d0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brussens/yii2-bootstrap-select/zipball/3f26422d79409ea6e6514a8a32250687c43ce0d0",
+                "reference": "3f26422d79409ea6e6514a8a32250687c43ce0d0",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/bootstrap-select": "1.7.5",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "brussens\\bootstrap\\select\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brusenskiy Dmitry",
+                    "email": "brussens@nativeweb.ru"
+                }
+            ],
+            "description": "Bootstrap select widget for Yii2",
+            "keywords": [
+                "extension",
+                "select",
+                "widget",
+                "yii"
+            ],
+            "time": "2015-10-31 22:01:33"
+        },
+        {
             "name": "cebe/markdown",
             "version": "1.1.0",
             "source": {
@@ -297,6 +514,112 @@
                 "html"
             ],
             "time": "2015-08-05 01:03:42"
+        },
+        {
+            "name": "froala/yii2-froala-editor",
+            "version": "2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/froala/yii2-froala-editor.git",
+                "reference": "f1eb567e154024308ece6f439c71d76726722091"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/froala/yii2-froala-editor/zipball/f1eb567e154024308ece6f439c71d76726722091",
+                "reference": "f1eb567e154024308ece6f439c71d76726722091",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/froala-wysiwyg-editor": "2.3.0",
+                "rmrevin/yii2-fontawesome": "*",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "froala\\froalaeditor\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "dungphanxuan",
+                    "email": "dungphanxuan@vccorp.vn"
+                },
+                {
+                    "name": "Stefan Neculai",
+                    "email": "stefan@froala.com"
+                }
+            ],
+            "description": "A beautiful jQuery WYSIWYG HTML text editor based on HTML5 technology. Cross browser, with mobile support, high performance and Retina Ready modern design.",
+            "keywords": [
+                "editor",
+                "froala",
+                "html",
+                "javascript",
+                "jquery",
+                "jquery-plugin",
+                "rich editor",
+                "rich text editor",
+                "rte",
+                "text",
+                "wysiwyg"
+            ],
+            "time": "2016-05-20 14:51:40"
+        },
+        {
+            "name": "rmrevin/yii2-fontawesome",
+            "version": "2.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rmrevin/yii2-fontawesome.git",
+                "reference": "277edae224e63d2a41e00eb043829eab4903fdd5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rmrevin/yii2-fontawesome/zipball/277edae224e63d2a41e00eb043829eab4903fdd5",
+                "reference": "277edae224e63d2a41e00eb043829eab4903fdd5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "2.0.*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "asset-installer-paths": {
+                    "npm-asset-library": "vendor/npm",
+                    "bower-asset-library": "vendor/bower"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "rmrevin\\yii\\fontawesome\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Revin Roman",
+                    "email": "roman@rmrevin.com",
+                    "homepage": "https://rmrevin.com/"
+                }
+            ],
+            "description": "Asset Bundle for Yii2 with Font Awesome",
+            "keywords": [
+                "asset",
+                "awesome",
+                "bundle",
+                "font",
+                "yii"
+            ],
+            "time": "2016-05-22 20:07:51"
         },
         {
             "name": "swiftmailer/swiftmailer",

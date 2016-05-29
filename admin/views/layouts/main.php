@@ -39,15 +39,42 @@ AppAsset::register($this);
         <!-- /.navbar-header -->
 
         <ul class="nav navbar-top-links navbar-right">
-            <li><a href="<?=Url::to(['site/logout'])?>" class="glyphicon glyphicon-off gi-1_5x"></a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i class="glyphicon glyphicon-user  gi-1_5x"></i>  <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <li><a href="<?=Url::to(['user/changePassword']); ?>"><i class="glyphicon glyphicon-sunglasses"></i> Mainīt paroli</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li><a href="<?=Url::to(['site/logout'])?>"><i class="fa fa-sign-out fa-fw"></i> Beigt darbu</a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-user -->
+            </li>
+
+            <li class="dropdown">
+                <a  class="" data-toggle="dropdown" href="#">
+                    <i  class="flag-icon flag-icon-background flag-icon-lv  gi-1_5x"></i>
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu" style="min-width: 0px !important;">
+                    <li><a href="#"><i class="flag-icon flag-icon-background flag-icon-ru  gi-1_5x"></i></a>
+                    </li>
+                    <li><a href="#"><i class="flag-icon flag-icon-background flag-icon-gb  gi-1_5x"></i></a>
+                    </li>
+                </ul>
+            </li>
+
         </ul>
+
         <!-- /.navbar-top-links -->
 
         <div class="navbar-default sidebar" role="navigation">
             <div class="sidebar-nav navbar-collapse">
                 <ul class="nav" id="side-menu">
                     <li>
-                        <a href="<?=Url::to(['site/index'])?>"><i class="fa fa-table fa-fw"></i> Automašīnas</a>
+                        <a href="<?=Url::to(['site/index'])?>"><i class="fa fa-car fa-fw"></i> Automašīnas</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-wrench fa-fw"> </i> Uzstādījumi<span class="fa arrow"></span></a>
@@ -65,7 +92,7 @@ AppAsset::register($this);
                         <a href="#"><i class="fa fa-files-o fa-fw"></i> Parastās lapas<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="#">Līzina lapa</a>
+                                <a href="<?=Url::to(['site/leasing'])?>">Līzina lapa</a>
                             </li>
                             <li>
                                 <a href="<?=Url::to(['site/contact'])?>">Kontaktu lapa</a>

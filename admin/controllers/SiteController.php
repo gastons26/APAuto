@@ -2,6 +2,9 @@
 
 namespace app\controllers;
 
+use app\models\Language;
+use app\models\SimplePage;
+use app\models\SimplePageLanguage;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -75,13 +78,45 @@ class SiteController extends Controller
         return $this->goHome();
     }
 
-    public function actionContact()
+    public function actionContact($lang=null)
     {
-        return $this->render('contact');
+
+        $lang = ($lang === null ? Language::NATIVE_VALUE : $lang);
+        $languages = $this->getLangages();
+
+        $page = SimplePageLanguage::find()->joinWith(['simplePage', 'language'])->where('alt_id=:ALT_ID AND code=:lang', [':ALT_ID' => SimplePage::CONTACT_PAGE, ':lang'=>$lang])->one();
+
+        if ($page->load(Yii::$app->request->post()) && $page->save()) {
+            Yii::$app->session->setFlash('success', 'Dati veiksmīgi saglabāti');
+        }
+
+        return $this->render('contact', compact('page', 'languages'));
     }
+
+    public function actionLeasing($lang=null)
+    {
+        $lang = ($lang === null ? Language::NATIVE_VALUE : $lang);
+        $languages = $this->getLangages();
+
+        $page = SimplePageLanguage::find()->joinWith(['simplePage', 'language'])->where('alt_id=:ALT_ID AND code=:lang', [':ALT_ID' => SimplePage::LEASING_PAGE, ':lang'=>$lang])->one();
+
+        if ($page->load(Yii::$app->request->post()) && $page->save()) {
+            Yii::$app->session->setFlash('success', 'Dati veiksmīgi saglabāti');
+        }
+
+        return $this->render('leasing', compact('page', 'languages'));
+    }
+
+
 
     public function actionAbout()
     {
         return $this->render('about');
     }
+
+    private function getLangages($asArray=false)
+    {
+        return Language::find()->asArray($asArray)->all();
+    }
+
 }

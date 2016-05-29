@@ -374,3 +374,9 @@ table.dataTable thead .sorting:after {
 .gi-5x {
     font-size: 5em;
 }
+
+.test-class {
+    background-size: contain;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
