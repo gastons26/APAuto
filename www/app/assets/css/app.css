@@ -1,4 +1,7 @@
 /* app css stylesheet */
+body {
+    padding-top: 45px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
 
 .menu {
   list-style: none;
