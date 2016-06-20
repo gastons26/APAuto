@@ -6,12 +6,21 @@
     'ngRoute',
     'module.about',
     'module.leasing',
-	'component.navbar'
-  ]).config(['$locationProvider', '$routeProvider', function ($locationProvider, $routeProvider) {
-    $locationProvider.hashPrefix('!');
+	'component.navbar',
+	'pascalprecht.translate',
+	  'ngCookies'
+  ]).config(['$locationProvider', '$routeProvider', '$translateProvider', function ($locationProvider, $routeProvider, $translateProvider) {
+	  $locationProvider.hashPrefix('!');
 
-    $routeProvider.
-		when('/about', {
+	  $translateProvider.translations('en_EN', {});
+	  $translateProvider.translations('lv_LV', {});
+	  $translateProvider.translations('ru_RU', {});
+	  $translateProvider.use('en_EN');
+	  $translateProvider.useLocalStorage();// saves selected language to localStorage
+
+
+	  $routeProvider.
+	  	when('/about', {
 			templateUrl: 'modules/about/index.html',
 			controller: 'aboutCtrl'
 		}).
