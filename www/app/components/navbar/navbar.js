@@ -1,7 +1,7 @@
 (function() {
 	'use strict';
 	
-	var app = angular.module('component.navbar', []).directive('navbar', [function() {
+	var app = angular.module('apAuto.components', []).directive('navbar', ['$translate', '$route', function($translate, $route) {
 		return {
 			restrict: 'E',
 			templateUrl: 'components/navbar/navbar.html',
@@ -18,7 +18,16 @@
 				$scope.setActive = function(tab_index) {
 					$scope.activeTab = tab_index;
 				};
-				
+
+				$scope.setLanguage = function ($lang) {
+					$translate.use($lang);
+					$route.reload();
+					$scope.setActive($scope.activeTab);
+				};
+
+				$scope.getLanguage = function() {
+					return $translate.use();
+				};
 			}]
 		  };
 	}]);

@@ -12,19 +12,21 @@
 	<div class="navbar-collapse collapse" id="navbar">
 	  <ul class="nav navbar-nav">
 		<li ng-class="{ active: isActive(1) }" ng-click="setActive(1)">
-            <a href="" class="hidden-xs">Auto parks</a>
-            <a href="" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Auto parks</a>
         </li>
 		<li ng-class="{ active: isActive(2) }" ng-click="setActive(2)">
-            <a href="#!/leasing" class="hidden-xs">Līzings</a>
-            <a href="#!/leasing" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Līzings</a>
         </li>
 		<li ng-class="{ active: isActive(3) }" ng-click="setActive(3)">
-            <a href="#!/about" class="hidden-xs">Kontakti</a>
-            <a href="#!/about" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Kontakti</a>
         </li>
+          <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{getLanguage()}} <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                  <li><a ng-click="setLanguage('lv_LV')">LV</a></li>
+                  <li><a ng-click="setLanguage('ru_RU')">RU</a></li>
+                  <li><a ng-click="setLanguage('en_EN')">EN</a></li>
+              </ul>
+          </li>
 	  </ul>
-        <p class="navbar-text navbar-right">e-pasts: gatis.lapsins@gmail.com, telefons: 28352636</p>
+        <p class="navbar-text navbar-right">{{ 'E-pasts' | translate}}: gatis.lapsins@gmail.com,  {{ 'telefons' | translate }}: 28352636</p>
 	</div><!--/.nav-collapse -->
   </div>
 </nav>

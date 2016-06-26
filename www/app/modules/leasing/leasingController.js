@@ -1,11 +1,16 @@
 (function() {
     'use strict';
 
-    angular.module('module.leasing', [])
-        .controller('leasingCtrl', ['$scope', '$sce', 'leasingFactory', function ($scope, $sce, leasingFactory) {
-            leasingFactory.getContent('lv_LV')
-                .then(function(data) {
-                    $scope.content = $sce.trustAsHtml(data.content);
-                });
-        }]);
+    var app = angular.module('modules');
+
+    app.$inject = ['$scope', '$sce', 'leasingFactory', '$translate'];
+
+    function leasingCtrl($scope, $sce, leasingFactory, $translate) {
+        leasingFactory.getContent($translate.use())
+            .then(function(data) {
+                $scope.content = $sce.trustAsHtml(data.content);
+            });
+    }
+
+    app.controller('leasingCtrl', leasingCtrl);
 })();
