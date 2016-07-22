@@ -83,7 +83,7 @@ AppAsset::register($this);
                                 <a href="<?=Url::to(['site/index'])?>">Sistēmas mainīgie</a>
                             </li>
                             <li>
-                                <a href="#">Kategorijas</a>
+                                <a href="<?=Url::to(['models/index']);?>">Auto markas</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
