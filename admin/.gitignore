@@ -25,3 +25,7 @@ composer.phar
 phpunit.phar
 # local phpunit config
 /phpunit.xml
+
+/node_modules
+/node_modules/**/
+/web/bower_components
