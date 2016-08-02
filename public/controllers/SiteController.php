@@ -5,6 +5,7 @@ namespace app\controllers;
 use app\models\Language;
 use app\models\SimplePage;
 use app\models\SimplePageLanguage;
+use app\models\User;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -82,7 +83,7 @@ class SiteController extends Controller
     {
 
         $lang = ($lang === null ? Language::NATIVE_VALUE : $lang);
-        $languages = $this->getLangages();
+        $languages = $this->getLanguages();
 
         $page = SimplePageLanguage::find()->joinWith(['simplePage', 'language'])->where('alt_id=:ALT_ID AND code=:lang', [':ALT_ID' => SimplePage::CONTACT_PAGE, ':lang'=>$lang])->one();
 
@@ -96,7 +97,7 @@ class SiteController extends Controller
     public function actionLeasing($lang=null)
     {
         $lang = ($lang === null ? Language::NATIVE_VALUE : $lang);
-        $languages = $this->getLangages();
+        $languages = $this->getLanguages();
 
         $page = SimplePageLanguage::find()->joinWith(['simplePage', 'language'])->where('alt_id=:ALT_ID AND code=:lang', [':ALT_ID' => SimplePage::LEASING_PAGE, ':lang'=>$lang])->one();
 
@@ -107,14 +108,30 @@ class SiteController extends Controller
         return $this->render('leasing', compact('page', 'languages'));
     }
 
-
-
     public function actionAbout()
     {
         return $this->render('about');
     }
 
-    private function getLangages($asArray=false)
+    public function actionChangePassword()
+    {
+        $model = User::findOne(Yii::$app->user->id);
+
+        if(Yii::$app->request->isPost) {
+            if ($model->load(Yii::$app->request->post())) {
+                $model->setPassword($model->password_hash);
+                if($model->save()) {
+                    Yii::$app->session->setFlash('success', 'Parole veiksmīgi nomainīta');
+                }
+            }
+        }
+
+        $model->password_hash = null;
+
+        return $this->render('change_password', compact('model'));
+    }
+
+    private function getLanguages($asArray=false)
     {
         return Language::find()->asArray($asArray)->all();
     }

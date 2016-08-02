@@ -2,11 +2,11 @@
 
 namespace app\controllers;
 
-use cebe\markdown\tests\MarkdownOLStartNumTest;
 use Yii;
 use app\models\Models;
 use yii\data\ActiveDataProvider;
 use yii\db\Expression;
+use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -29,6 +29,23 @@ class ModelsController extends Controller
                     'delete' => ['POST'],
                 ],
             ],
+            'access' => [
+                'class' => AccessControl::className(),
+                'rules' => [
+                    [
+                        'actions' => ['login'],
+                        'allow' => true,
+                    ],
+                    [
+                        'allow' => true,
+                        'roles' => ['@'],
+                    ],
+                    [
+                        'allow' => false,
+                        'roles' => ['@'],
+                    ],
+                ],
+            ]
         ];
     }
 

@@ -44,7 +44,7 @@ AppAsset::register($this);
                     <i class="glyphicon glyphicon-user  gi-1_5x"></i>  <i class="fa fa-caret-down"></i>
                 </a>
                 <ul class="dropdown-menu dropdown-user">
-                    <li><a href="<?=Url::to(['user/changePassword']); ?>"><i class="glyphicon glyphicon-sunglasses"></i> Mainīt paroli</a>
+                    <li><a href="<?=Url::to(['site/change-password']); ?>"><i class="glyphicon glyphicon-sunglasses"></i> Mainīt paroli</a>
                     </li>
                     <li class="divider"></li>
                     <li><a href="<?=Url::to(['site/logout'])?>"><i class="fa fa-sign-out fa-fw"></i> Beigt darbu</a>
@@ -84,6 +84,9 @@ AppAsset::register($this);
                             </li>
                             <li>
                                 <a href="<?=Url::to(['models/index']);?>">Auto markas</a>
+                            </li>
+                            <li>
+                                <a href="<?=Url::to(['features/index']);?>">Auto uzstādījumi</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
