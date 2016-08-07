@@ -57,6 +57,9 @@ $this->title = $model->name;
         ['class' => 'yii\grid\SerialColumn'],
         'name',
         'parentModel.name',
-        ['class' => 'yii\grid\ActionColumn'],
+        [
+            'class' => 'yii\grid\ActionColumn',
+            'template' => '{update}  {delete}'
+        ],
     ],
 ]); ?>

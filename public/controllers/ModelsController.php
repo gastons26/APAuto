@@ -76,7 +76,7 @@ class ModelsController extends Controller
         $childModel->parent_model = $id;
 
         $dataProvider = new ActiveDataProvider([
-            'query' => Models::find()->where('parent_model=:PID', [':PID' => $id]),
+            'query' => Models::find()->where('parent_model=:PID AND deleted IS NULL', [':PID' => $id]),
         ]);
 
         if($childModel->load(Yii::$app->request->post()) && $childModel->save())
@@ -127,7 +127,8 @@ class ModelsController extends Controller
         if(Yii::$app->request->isPost && $model->load(Yii::$app->request->post())) {
             $model->icon = UploadedFile::getInstance($model, 'icon');
             if ($model->save()) {
-                return $this->redirect(['view', 'id' => $model->id]);
+                $id = $model->parent_model===null ? $model->id : $model->parent_model;
+                return $this->redirect(['view', 'id' => $id]);
             } else {
                 return $this->render('update', [
                     'model' => $model,
@@ -152,9 +153,17 @@ class ModelsController extends Controller
         $model = $this->findModel($id);
 
         $model->deleted = new Expression('NOW()');
-        $model->save(false, ['deleted']);
+        $model->changed = new Expression('NOW()');
+        $model->author = Yii::$app->user->id;
+        if($model->save(false, ['deleted', 'changed', 'author'])) {
+            Yii::$app->session->setFlash("success", "$model->name veiksmīgi izdzēsts");
+        }
+        if($model->parent_model!==null) {
+            return $this->redirect(Yii::$app->request->referrer);
+        } else {
+            return $this->redirect(['index']);
+        }
 
-        return $this->redirect(['index']);
     }
 
     /**

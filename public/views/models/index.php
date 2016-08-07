@@ -13,12 +13,8 @@ use yii\grid\GridView;
         'dataProvider' => $dataProvider,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-
-            'id',
-            'parent_model',
             'icon',
             'name',
-
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
