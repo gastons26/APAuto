@@ -76,7 +76,7 @@ AppAsset::register($this);
                     <li>
                         <a href="<?=Url::to(['site/index'])?>"><i class="fa fa-car fa-fw"></i> Automašīnas</a>
                     </li>
-                    <li class="<?=in_array(Yii::$app->controller->id, ['models', 'features']) ? 'active': ''?>">
+                    <li class="<?=in_array(Yii::$app->controller->id, ['models', 'feature']) ? 'active': ''?>">
                         <a href="#"><i class="fa fa-wrench fa-fw"> </i> Uzstādījumi<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
@@ -86,7 +86,7 @@ AppAsset::register($this);
                                 <a href="<?=Url::to(['models/index']);?>" class="<?=Yii::$app->controller->id == 'models' ? 'active' : ''; ?>">Auto markas</a>
                             </li>
                             <li>
-                                <a href="<?=Url::to(['features/index']);?>">Auto uzstādījumi</a>
+                                <a href="<?=Url::to(['feature/index']);?>">Auto uzstādījumi</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
