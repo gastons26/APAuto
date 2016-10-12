@@ -47,10 +47,32 @@ class Feature extends \yii\db\ActiveRecord
         return [
             'id' => Yii::t('models', 'ID'),
             'type' => Yii::t('models', 'Type'),
-            'parent_id' => Yii::t('models', 'Parent ID'),
-            'order_nr' => Yii::t('models', 'Order Nr'),
+            'parent_id' => Yii::t('models', 'ParentID'),
+            'order_nr' => Yii::t('models', 'OrderNr'),
         ];
     }
+
+    /**
+     * @param $lang Language
+     */
+    public function getLangValue($lang)
+    {
+        if($this->featureHasLanguages==null)
+        {
+            return null;
+        }
+
+        $model = array_filter(
+            $this->featureHasLanguages,
+            function ($e) use (&$lang) {
+                return $e->language_id == $lang->id;
+            }
+        );
+        $model = reset($model);
+        return isset($model) && $model->value ? $model->value : null;
+    }
+
+
 
     /**
      * @return \yii\db\ActiveQuery
@@ -81,6 +103,21 @@ class Feature extends \yii\db\ActiveRecord
      */
     public function getFeatureHasLanguages()
     {
-        return $this->hasMany(FeatureHasLanguage::className(), ['feature_id' => 'id']);
+        return $this->hasMany(FeatureLanguage::className(), ['feature_id' => 'id']);
+    }
+
+    public function getMainLanguageFeature()
+    {
+        return $this->hasOne(FeatureLanguage::className(), ['feature_id' => 'id'])->where('language_id=:langId', [':langId'=>1]);
+    }
+
+    public function getLanguages() {
+        return $this->hasMany(Language::className(), ['id' => 'language_id'])
+            ->viaTable(FeatureLanguage::tableName(), ['feature_id' => 'id']);
+    }
+
+    public function getMainLanguage() {
+        return $this->hasOne(Language::className(), ['id' => 'language_id'])
+            ->viaTable(FeatureLanguage::tableName(), ['feature_id' => 'id'])->where('code=:code', [':code'=>'lv_LV']);
     }
 }

@@ -6,5 +6,8 @@
         'name' => 'Nosaukums',
         'deleted' => 'Dzēsts',
         'changed' => 'Mainīts',
-        'author' => 'Autors'
+        'author' => 'Autors',
+        'Type' => 'Tips',
+        'ParentID' => 'Piesaistīts',
+        'OrderNr' => 'Kārtošanas identifikators',
     ];

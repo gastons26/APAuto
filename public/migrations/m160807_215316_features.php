@@ -40,8 +40,8 @@ SQL;
           CONSTRAINT `fk_feature_feature1`
             FOREIGN KEY (`parent_id`)
             REFERENCES `feature` (`id`)
-            ON DELETE NO ACTION
-            ON UPDATE NO ACTION)
+            ON DELETE CASCADE 
+            ON UPDATE CASCADE )
 SQL;
 
     private $_feature_car_table = <<<SQL
@@ -53,13 +53,13 @@ SQL;
           CONSTRAINT `fk_car_has_feature_car1`
             FOREIGN KEY (`car_id`)
             REFERENCES `car` (`id`)
-            ON DELETE NO ACTION
-            ON UPDATE NO ACTION,
+            ON DELETE CASCADE 
+            ON UPDATE CASCADE ,
           CONSTRAINT `fk_car_has_feature_feature1`
             FOREIGN KEY (`feature_id`)
             REFERENCES `feature` (`id`)
-            ON DELETE NO ACTION
-            ON UPDATE NO ACTION)
+            ON DELETE CASCADE 
+            ON UPDATE CASCADE )
 SQL;
 
     private $_feature_lang_table = <<<SQL
@@ -72,13 +72,13 @@ SQL;
           CONSTRAINT `fk_feature_has_language_feature1`
             FOREIGN KEY (`feature_id`)
             REFERENCES `feature` (`id`)
-            ON DELETE NO ACTION
-            ON UPDATE NO ACTION,
+            ON DELETE CASCADE 
+            ON UPDATE CASCADE ,
           CONSTRAINT `fk_feature_has_language_language1`
             FOREIGN KEY (`language_id`)
             REFERENCES `language` (`id`)
-            ON DELETE NO ACTION
-            ON UPDATE NO ACTION)
+            ON DELETE CASCADE 
+            ON UPDATE CASCADE )
 SQL;
 
 

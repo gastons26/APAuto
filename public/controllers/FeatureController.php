@@ -2,12 +2,17 @@
 
 namespace app\controllers;
 
+use app\models\FeatureLanguage;
+use app\models\Language;
 use Yii;
 use app\models\Feature;
+use yii\base\Exception;
 use yii\data\ActiveDataProvider;
 use yii\web\Controller;
+use yii\web\HttpException;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\filters\AccessControl;
 
 /**
  * FeatureController implements the CRUD actions for Feature model.
@@ -26,6 +31,23 @@ class FeatureController extends Controller
                     'delete' => ['POST'],
                 ],
             ],
+            'access' => [
+                'class' => AccessControl::className(),
+                'rules' => [
+                    [
+                        'actions' => ['login'],
+                        'allow' => true,
+                    ],
+                    [
+                        'allow' => true,
+                        'roles' => ['@'],
+                    ],
+                    [
+                        'allow' => false,
+                        'roles' => ['@'],
+                    ],
+                ],
+            ]
         ];
     }
 
@@ -36,7 +58,7 @@ class FeatureController extends Controller
     public function actionIndex()
     {
         $dataProvider = new ActiveDataProvider([
-            'query' => Feature::find(),
+            'query' => Feature::find()->with('mainLanguageFeature')->where('parent_id IS NULL'),
         ]);
 
         return $this->render('index', [
@@ -51,9 +73,38 @@ class FeatureController extends Controller
      */
     public function actionView($id)
     {
-        return $this->render('view', [
-            'model' => $this->findModel($id),
-        ]);
+        $model = $this->findModel($id);
+        $languages = $this->getLanguages();
+        $childModel = new Feature();
+        $childLangModel = new FeatureLanguage();
+
+        $childModel->parent_id = $model->id;
+        $childModel->type = $model->type;
+        $childModel->order_nr = 1;
+        if (Yii::$app->request->isPost && $childModel->save()) {
+            foreach (Yii::$app->request->post()['FeatureLanguage'] as $data)
+            {
+                $fmodel = new FeatureLanguage();
+                $fmodel->setAttributes($data);
+                $fmodel->feature_id = $childModel->id;
+                if(!$fmodel->save())
+                {
+                    throw new HttpException("Notikusi kļūda, saglabājot datus");
+                }
+            }
+            return $this->redirect(['view', 'id' => $model->id]);
+
+        } else {
+            $childModels = $this->findChildModels($id);
+
+            return $this->render('view', [
+                'model' => $model,
+                'languages' => $languages,
+                'childModel' => $childModel,
+                'childLangModel' => $childLangModel,
+                'childModels' => $childModels
+            ]);
+        }
     }
 
     /**
@@ -64,12 +115,28 @@ class FeatureController extends Controller
     public function actionCreate()
     {
         $model = new Feature();
+        $languages = $this->getLanguages();
+        $featureLangModel = new FeatureLanguage();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+
+                foreach (Yii::$app->request->post()['FeatureLanguage'] as $data)
+                {
+                    $fmodel = new FeatureLanguage();
+                    $fmodel->setAttributes($data);
+                    $fmodel->feature_id = $model->id;
+                    if(!$fmodel->save())
+                    {
+                        throw new HttpException("Notikusi kļūda, saglabājot datus");
+                    }
+                }
+                return $this->redirect(['view', 'id' => $model->id]);
+
         } else {
             return $this->render('create', [
                 'model' => $model,
+                'languages' => $languages,
+                'featureLangModel' => $featureLangModel
             ]);
         }
     }
@@ -83,14 +150,36 @@ class FeatureController extends Controller
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
+        $languages = $this->getLanguages();
+        $featureLangModel = new FeatureLanguage();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+        if (($model->load(Yii::$app->request->post()) || Yii::$app->request->isPost) && $model->save()) {
+            FeatureLanguage::deleteAll('feature_id=:FID', [':FID'=>$model->id]);
+            foreach (Yii::$app->request->post()['FeatureLanguage'] as $data)
+            {
+                $searchedValue = $data['language_id'];
+                $lang = array_filter(
+                    $languages,
+                    function ($e) use (&$searchedValue) {
+                        return $e->id == $searchedValue;
+                    }
+                );
+                $lang = reset($lang);
+                $model->link("languages", $lang, $data);
+            }
+            return $this->redirect(['view', 'id' => $model->parent_id !== null ? $model->parent_id : $model->id]);
         } else {
             return $this->render('update', [
                 'model' => $model,
+                'languages' => $languages,
+                'featureLangModel' => $featureLangModel
             ]);
         }
+    }
+
+    private function getLanguages()
+    {
+        return Language::find()->all();
     }
 
     /**
@@ -101,8 +190,19 @@ class FeatureController extends Controller
      */
     public function actionDelete($id)
     {
-        $this->findModel($id)->delete();
+        $parent = null;
+        try{
+            $model = $this->findModel($id);
+            $parent = $model->parent_id;
+            $model->delete();
+        } catch (Exception $ex) {
+            var_dump($ex);exit;
+        }
 
+        if($parent)
+        {
+            return $this->redirect(['view', 'id' => $parent]);
+        }
         return $this->redirect(['index']);
     }
 
@@ -115,10 +215,16 @@ class FeatureController extends Controller
      */
     protected function findModel($id)
     {
-        if (($model = Feature::findOne($id)) !== null) {
+        if (($model = Feature::find()->with('featureHasLanguages')->where('id=:ID', [':ID'=>$id])->one()) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
+
+    protected function findChildModels($id)
+    {
+        return Feature::find()->where('parent_id=:PID', [':PID' => $id])->all();
+    }
+
 }

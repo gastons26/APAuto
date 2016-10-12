@@ -2,7 +2,9 @@
 
 namespace app\controllers;
 
+use app\models\Feature;
 use app\models\Language;
+use app\models\Models;
 use app\models\SimplePage;
 use app\models\SimplePageLanguage;
 use app\models\User;
@@ -51,7 +53,11 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
-        return $this->render('index');
+        $cars = $this->getCarModels();
+        $features = $this->getAllFeatures();
+
+
+        return $this->render('index', compact('cars', 'features'));
     }
 
     public function actionLogin()
@@ -134,4 +140,11 @@ class SiteController extends Controller
         return Language::find()->asArray($asArray)->all();
     }
 
+    private function getCarModels() {
+        return Models::find()->all();
+    }
+
+    private function getAllFeatures() {
+        return Feature::find()->where('parent_id IS NULL')->with('mainLanguageFeature')->all();
+    }
 }

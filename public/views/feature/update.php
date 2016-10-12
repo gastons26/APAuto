@@ -10,6 +10,8 @@ $this->title = 'Labot īpašību: '
 
     <?= $this->render('_form', [
         'model' => $model,
+        'languages' => $languages,
+        'featureLangModel' => $featureLangModel
     ]) ?>
 
 </div>
