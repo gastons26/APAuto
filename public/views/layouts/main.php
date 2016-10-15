@@ -53,19 +53,6 @@ AppAsset::register($this);
                 <!-- /.dropdown-user -->
             </li>
 
-            <li class="dropdown">
-                <a  class="" data-toggle="dropdown" href="#">
-                    <i  class="flag-icon flag-icon-background flag-icon-lv  gi-1_5x"></i>
-                    <i class="fa fa-caret-down"></i>
-                </a>
-                <ul class="dropdown-menu" style="min-width: 0px !important;">
-                    <li><a href="#"><i class="flag-icon flag-icon-background flag-icon-ru  gi-1_5x"></i></a>
-                    </li>
-                    <li><a href="#"><i class="flag-icon flag-icon-background flag-icon-gb  gi-1_5x"></i></a>
-                    </li>
-                </ul>
-            </li>
-
         </ul>
 
         <!-- /.navbar-top-links -->
@@ -74,13 +61,13 @@ AppAsset::register($this);
             <div class="sidebar-nav navbar-collapse">
                 <ul class="nav" id="side-menu">
                     <li>
-                        <a href="<?=Url::to(['site/index'])?>"><i class="fa fa-car fa-fw"></i> Automašīnas</a>
+                        <a href="<?=Url::to(['car/index'])?>"><i class="fa fa-car fa-fw"></i> Automašīnas</a>
                     </li>
                     <li class="<?=in_array(Yii::$app->controller->id, ['models', 'feature']) ? 'active': ''?>">
                         <a href="#"><i class="fa fa-wrench fa-fw"> </i> Uzstādījumi<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="<?=Url::to(['site/index'])?>">Sistēmas mainīgie</a>
+                                <a href="<?=Url::to(['param/index'])?>">Sistēmas mainīgie</a>
                             </li>
                             <li>
                                 <a href="<?=Url::to(['models/index']);?>" class="<?=Yii::$app->controller->id == 'models' ? 'active' : ''; ?>">Auto markas</a>

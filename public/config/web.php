@@ -54,6 +54,14 @@ $config = [
                 ],
             ],
         ],
+
+        'formatter' => [
+            'dateFormat' => 'dd.MM.yyyy',
+            'datetimeFormat' => 'dd.MM.yyyy',
+            'decimalSeparator' => '.',
+            'thousandSeparator' => ' ',
+            'currencyCode' => 'EUR',
+        ],
     ],
     'params' => $params,
 ];

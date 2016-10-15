@@ -55,4 +55,8 @@ class Language extends \yii\db\ActiveRecord
     {
         return $this->hasMany(SimplePageLanguage::className(), ['language_id' => 'id']);
     }
+
+    public static function getAllLanguages() {
+        return self::find()->all();
+    }
 }

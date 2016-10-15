@@ -135,13 +135,17 @@ class SiteController extends Controller
         return $this->render('change_password', compact('model'));
     }
 
+    public function actionUploadEditorFile() {
+        var_dump($_POST, $_GET);
+    }
+
     private function getLanguages($asArray=false)
     {
         return Language::find()->asArray($asArray)->all();
     }
 
     private function getCarModels() {
-        return Models::find()->all();
+        return Models::find()->where('parent_model IS NULL')->all();
     }
 
     private function getAllFeatures() {

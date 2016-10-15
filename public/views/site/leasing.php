@@ -3,6 +3,7 @@ use brussens\bootstrap\select\Widget as Select;
 use yii\widgets\ActiveForm;
 use yii\helpers\ArrayHelper;
 use yii\bootstrap\Html;
+use yii\helpers\Url;
 
 ?>
 
@@ -42,6 +43,7 @@ use yii\bootstrap\Html;
             'toolbarInline'=> false,
             'theme' =>'royal',//optional: dark, red, gray, royal
             'language'=>'en_gb', // optional: ar, bs, cs, da, de, en_ca, en_gb, en_us ...
+            'imageUploadURL' => Url::to(['site/upload-editor-file']),
             'height' => 400
         ]
     ]);

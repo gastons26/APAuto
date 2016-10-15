@@ -10,4 +10,6 @@
         'Type' => 'Tips',
         'ParentID' => 'Piesaistīts',
         'OrderNr' => 'Kārtošanas identifikators',
+        'Model' => 'Marka',
+        'DeriveDate' => 'Pieejams no'
     ];

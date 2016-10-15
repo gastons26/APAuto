@@ -62,4 +62,20 @@ class CarFeature extends \yii\db\ActiveRecord
     {
         return $this->hasOne(Feature::className(), ['id' => 'feature_id']);
     }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getCarFeatureHasLanguages()
+    {
+        return $this->hasMany(CarFeatureHasLanguage::className(), ['car_feature_id' => 'id']);
+    }
+
+    public static function createModel($attrs) {
+
+        $model = new self();
+        $model->feature_id = $attrs['feature_id'];
+
+        return $model;
+    }
 }

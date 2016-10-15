@@ -11,6 +11,7 @@ use Yii;
  * @property string $type
  * @property integer $parent_id
  * @property integer $order_nr
+ * @property boolean $can_delete
  *
  * @property CarFeature[] $carFeatures
  * @property Feature $parent
@@ -19,6 +20,10 @@ use Yii;
  */
 class Feature extends \yii\db\ActiveRecord
 {
+
+    CONST DESCRIPTION = 1;
+    CONST PRICE = 2;
+
     /**
      * @inheritdoc
      */
@@ -34,7 +39,7 @@ class Feature extends \yii\db\ActiveRecord
     {
         return [
             [['type'], 'string'],
-            [['parent_id', 'order_nr'], 'integer'],
+            [['parent_id', 'order_nr', 'can_delete'], 'integer'],
             [['parent_id'], 'exist', 'skipOnError' => true, 'targetClass' => Feature::className(), 'targetAttribute' => ['parent_id' => 'id']],
         ];
     }
@@ -108,7 +113,7 @@ class Feature extends \yii\db\ActiveRecord
 
     public function getMainLanguageFeature()
     {
-        return $this->hasOne(FeatureLanguage::className(), ['feature_id' => 'id'])->where('language_id=:langId', [':langId'=>1]);
+        return $this->hasOne(FeatureLanguage::className(), ['feature_id' => 'id'])->where('`feature_has_language`.language_id=:langId', [':langId'=>1]);
     }
 
     public function getLanguages() {
@@ -119,5 +124,9 @@ class Feature extends \yii\db\ActiveRecord
     public function getMainLanguage() {
         return $this->hasOne(Language::className(), ['id' => 'language_id'])
             ->viaTable(FeatureLanguage::tableName(), ['feature_id' => 'id'])->where('code=:code', [':code'=>'lv_LV']);
+    }
+
+    public static function fieldTypes() {
+        return [ 'DATE' => 'Datums', 'CHBOX' => 'Rūtiņu izvēle', 'DROPDOWN' => 'Izkrītošā izvēlne', 'TEXT_FIELD' => 'Teksts', 'PRICE' => 'Cena'];
     }
 }

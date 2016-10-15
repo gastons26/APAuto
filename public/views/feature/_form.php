@@ -8,7 +8,7 @@ use yii\widgets\ActiveForm;
     <?php $form = ActiveForm::begin(); ?>
 
     <?php if($model->parent_id === null): ?>
-        <?= $form->field($model, 'type')->dropDownList([ 'DATE' => 'Datums', 'CHBOX' => 'Rūtiņu izvēle', 'DROPDOWN' => 'Izkrītošā izvēlne', 'TEXT' => 'Teksts', ]) ?>
+        <?= $form->field($model, 'type')->dropDownList(\app\models\Feature::fieldTypes()) ?>
     <?php endif; ?>
     
     <?php foreach($languages as $key => $lang) :?>

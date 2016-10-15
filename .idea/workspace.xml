@@ -2,6 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cb67d12-b57f-44fd-8e1c-b14073494514" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/models/FeatureEdit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/car/_carView.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/car/fields/_checkbox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/car/fields/_date.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/car/fields/_dropdown.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/car/fields/_input.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/car/_modelList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/car/fields/_price.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/car/fields/_text.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/views/car/pictures.php" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\public\views\site\_modelList.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\APAuto\public\web\images\models\Audi.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APAuto_DB.mwb.bak" afterPath="$PROJECT_DIR$/APAuto_DB.mwb.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/APAuto_DB.mwb" afterPath="$PROJECT_DIR$/APAuto_DB.mwb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.gitignore" afterPath="$PROJECT_DIR$/public/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/models/Car.php" afterPath="$PROJECT_DIR$/public/models/Car.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/models/CarFeature.php" afterPath="$PROJECT_DIR$/public/models/CarFeature.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/models/Feature.php" afterPath="$PROJECT_DIR$/public/models/Feature.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/models/Language.php" afterPath="$PROJECT_DIR$/public/models/Language.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/models/Models.php" afterPath="$PROJECT_DIR$/public/models/Models.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/controllers/SiteController.php" afterPath="$PROJECT_DIR$/public/controllers/SiteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/feature/_form.php" afterPath="$PROJECT_DIR$/public/views/feature/_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/composer.json" afterPath="$PROJECT_DIR$/public/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/composer.lock" afterPath="$PROJECT_DIR$/public/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/site/index.php" afterPath="$PROJECT_DIR$/public/views/site/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/site/leasing.php" afterPath="$PROJECT_DIR$/public/views/site/leasing.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/migrations/m160807_215316_features.php" afterPath="$PROJECT_DIR$/public/migrations/m160807_215316_features.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/layouts/main.php" afterPath="$PROJECT_DIR$/public/views/layouts/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/messages/lv-LV/models.php" afterPath="$PROJECT_DIR$/public/messages/lv-LV/models.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/web/components/navbar/navbar.html" afterPath="$PROJECT_DIR$/public/web/components/navbar/navbar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/config/params.php" afterPath="$PROJECT_DIR$/public/config/params.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/web/css/site.css" afterPath="$PROJECT_DIR$/public/web/css/site.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/models/view.php" afterPath="$PROJECT_DIR$/public/views/models/view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/config/web.php" afterPath="$PROJECT_DIR$/public/config/web.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="APAuto.iws" />
@@ -18,18 +52,131 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="APAuto" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ModelsController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/controllers/ModelsController.php">
+    <leaf>
+      <file leaf-file-name="CarController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/controllers/CarController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.327273" vertical-offset="2482" max-vertical-offset="5882">
+              <caret line="160" column="59" selection-start-line="160" selection-start-column="59" selection-end-line="160" selection-end-column="59" />
+              <folding>
+                <element signature="e#35#61#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/car/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.3454547" vertical-offset="131" max-vertical-offset="748">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="e#7#28#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/car/update.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="459">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#hr#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pictures.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/car/pictures.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.923077" vertical-offset="67" max-vertical-offset="782">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <folding>
+                <element signature="e#6#44#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/controllers/SiteController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.807693" vertical-offset="1912" max-vertical-offset="2567">
+              <caret line="138" column="32" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="32" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_carView.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/car/_carView.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="629">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+                <marker date="1476571215004" expanded="true" signature="384:417" placeholder="..." />
+                <marker date="1476571215004" expanded="true" signature="590:1348" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_text.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/car/fields/_text.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.418182" vertical-offset="153" max-vertical-offset="901">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="76" />
+              <folding>
+                <element signature="e#6#53#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leasing.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/views/site/leasing.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.516184" vertical-offset="360" max-vertical-offset="1037">
+              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+              <folding>
+                <element signature="e#6#53#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FroalaEditorWidget.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/vendor/froala/yii2-froala-editor/FroalaEditorWidget.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.8363637" vertical-offset="2296" max-vertical-offset="4828">
+              <caret line="144" column="26" selection-start-line="144" selection-start-column="13" selection-end-line="144" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_modelList.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/car/_modelList.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="289">
+              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,55 +189,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/admin/views/site/contacts.php" />
-        <option value="$PROJECT_DIR$/admin/views/site/index.php" />
-        <option value="$PROJECT_DIR$/admin/views/layouts/empty.php" />
-        <option value="$PROJECT_DIR$/admin/views/site/login.php" />
-        <option value="$PROJECT_DIR$/admin/models/ContactForm.php" />
-        <option value="$PROJECT_DIR$/admin/models/LoginForm.php" />
-        <option value="$PROJECT_DIR$/admin/migrations/m160525_201240_language.php" />
-        <option value="$PROJECT_DIR$/admin/config/db.php" />
-        <option value="$PROJECT_DIR$/admin/migrations/m130524_201442_init.php" />
-        <option value="$PROJECT_DIR$/admin/models/User.php" />
-        <option value="$PROJECT_DIR$/admin/config/web.php" />
-        <option value="$PROJECT_DIR$/admin/models/SimplePage.php" />
-        <option value="$PROJECT_DIR$/admin/assets/AppAsset.php" />
-        <option value="$PROJECT_DIR$/admin/models/Language.php" />
-        <option value="$PROJECT_DIR$/admin/web/css/flag-icon.css" />
-        <option value="$PROJECT_DIR$/admin/web/css/site.css" />
-        <option value="$PROJECT_DIR$/admin/composer.json" />
-        <option value="$PROJECT_DIR$/admin/migrations/m160525_222059_simple_page.php" />
-        <option value="$PROJECT_DIR$/admin/models/SimplePageLanguage.php" />
-        <option value="$PROJECT_DIR$/admin/views/site/contact.php" />
-        <option value="$PROJECT_DIR$/admin/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/admin/controllers/SiteController.php" />
-        <option value="$PROJECT_DIR$/admin/views/site/leasing.php" />
-        <option value="$PROJECT_DIR$/api/.bowerrc" />
-        <option value="$PROJECT_DIR$/api/composer.json" />
-        <option value="$PROJECT_DIR$/api/controllers/SiteController.php" />
-        <option value="$PROJECT_DIR$/api/controllers/SimplePage.php" />
-        <option value="$PROJECT_DIR$/api/controllers/SimplePageController.php" />
-        <option value="$PROJECT_DIR$/api/runtime/logs/app.log" />
-        <option value="$PROJECT_DIR$/api/config/web.php" />
-        <option value="$PROJECT_DIR$/api/controllers/PageController.php" />
-        <option value="$PROJECT_DIR$/www/app/modules/leasing/index.html" />
-        <option value="$PROJECT_DIR$/www/bower.json" />
-        <option value="$PROJECT_DIR$/www/app/modules/about/index.html" />
-        <option value="$PROJECT_DIR$/www/app/modules/leasing/leasing.html" />
-        <option value="$PROJECT_DIR$/www/app/modules/index/index.html" />
-        <option value="$PROJECT_DIR$/www/app/components/navbar/navbar.js" />
-        <option value="$PROJECT_DIR$/www/app/index.html" />
-        <option value="$PROJECT_DIR$/www/app/modules/index/indexController.js" />
-        <option value="$PROJECT_DIR$/www/app/modules/leasing/leasingController.js" />
-        <option value="$PROJECT_DIR$/www/app/modules/about/aboutController.js" />
-        <option value="$PROJECT_DIR$/www/app/modules/about/aboutFactory.js" />
-        <option value="$PROJECT_DIR$/www/app/modules/index/indexFactory.js" />
         <option value="$PROJECT_DIR$/www/app/modules/leasing/leasingFactory.js" />
         <option value="$PROJECT_DIR$/www/app/assets/js/app.js" />
         <option value="$PROJECT_DIR$/www/app/components/navbar/navbar.html" />
         <option value="$PROJECT_DIR$/admin/migrations/m160626_203635_params.php" />
         <option value="$PROJECT_DIR$/www/app/assets/css/app.css" />
         <option value="$PROJECT_DIR$/public/controllers/ModelsController.php" />
+        <option value="$PROJECT_DIR$/public/.bowerrc" />
+        <option value="$PROJECT_DIR$/public/web/css/app.css" />
+        <option value="$PROJECT_DIR$/public/.gitignore" />
+        <option value="$PROJECT_DIR$/public/views/site/_modelList.php" />
+        <option value="$PROJECT_DIR$/public/web/components/navbar/navbar.html" />
+        <option value="$PROJECT_DIR$/public/views/models/view.php" />
+        <option value="$PROJECT_DIR$/public/views/feature/_form.php" />
+        <option value="$PROJECT_DIR$/public/views/site/index.php" />
+        <option value="$PROJECT_DIR$/public/composer.json" />
+        <option value="$PROJECT_DIR$/api/models/Language.php" />
+        <option value="$PROJECT_DIR$/public/models/Language.php" />
+        <option value="$PROJECT_DIR$/public/migrations/m161014_092313_FeatureEditView.php" />
+        <option value="$PROJECT_DIR$/public/models/FeatureEdit.php" />
+        <option value="$PROJECT_DIR$/public/models/Models.php" />
+        <option value="$PROJECT_DIR$/public/messages/lv-LV/models.php" />
+        <option value="$PROJECT_DIR$/public/views/car/fields/_input.php" />
+        <option value="$PROJECT_DIR$/public/models/Feature.php" />
+        <option value="$PROJECT_DIR$/public/models/CarFeature.php" />
+        <option value="$PROJECT_DIR$/public/views/car/create.php" />
+        <option value="$PROJECT_DIR$/public/models/CarFeatureHasLanguage.php" />
+        <option value="$PROJECT_DIR$/public/views/car/fields/_price.php" />
+        <option value="$PROJECT_DIR$/public/views/car/fields/_checkbox.php" />
+        <option value="$PROJECT_DIR$/public/views/car/fields/_date.php" />
+        <option value="$PROJECT_DIR$/public/migrations/m160807_215316_features.php" />
+        <option value="$PROJECT_DIR$/public/views/car/_form.php" />
+        <option value="$PROJECT_DIR$/public/views/car/fields/_dropdown.php" />
+        <option value="$PROJECT_DIR$/public/config/web.php" />
+        <option value="$PROJECT_DIR$/public/views/car/view.php" />
+        <option value="$PROJECT_DIR$/public/messages/lv-LV/fileupload.php" />
+        <option value="$PROJECT_DIR$/public/vendor/2amigos/yii2-file-upload-widget/src/messages/en/fileupload.php" />
+        <option value="$PROJECT_DIR$/public/vendor/2amigos/yii2-file-upload-widget/src/messages/lv-LV/fileupload.php" />
+        <option value="$PROJECT_DIR$/public/web/css/site.css" />
+        <option value="$PROJECT_DIR$/public/config/params.php" />
+        <option value="$PROJECT_DIR$/public/views/car/index.php" />
+        <option value="$PROJECT_DIR$/public/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/public/models/Car.php" />
+        <option value="$PROJECT_DIR$/public/views/car/_carView.php" />
+        <option value="$PROJECT_DIR$/public/controllers/CarController.php" />
+        <option value="$PROJECT_DIR$/public/views/car/pictures.php" />
+        <option value="$PROJECT_DIR$/public/views/car/update.php" />
+        <option value="$PROJECT_DIR$/public/views/car/_modelList.php" />
+        <option value="$PROJECT_DIR$/public/vendor/froala/yii2-froala-editor/FroalaEditorWidget.php" />
+        <option value="$PROJECT_DIR$/public/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/public/views/car/fields/_text.php" />
+        <option value="$PROJECT_DIR$/public/views/site/leasing.php" />
       </list>
     </option>
   </component>
@@ -98,14 +247,13 @@
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -128,8 +276,6 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="ProjectPane">
@@ -178,7 +324,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -200,10 +386,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APAuto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,40 +416,35 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp\www\APAuto\www\app\modules\index" />
       <recent name="C:\wamp\www\APAuto\admin\views\site" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\APAuto\public\views\car" />
+      <recent name="C:\wamp\www\APAuto\public\vendor\2amigos\yii2-file-upload-widget\src\messages\lv-LV" />
+      <recent name="C:\wamp\www\APAuto\public\web" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
       <method />
     </configuration>
-    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" />
-      <option name="filePath" />
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -254,30 +453,12 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
+    <list size="0" />
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -286,64 +467,49 @@
       <changelist id="2cb67d12-b57f-44fd-8e1c-b14073494514" name="Default" comment="" />
       <created>1464100530384</created>
       <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
       <updated>1464100530384</updated>
       <workItem from="1466964821793" duration="9003000" />
       <workItem from="1468178409077" duration="1033000" />
       <workItem from="1468603227402" duration="75000" />
       <workItem from="1470109781024" duration="304000" />
       <workItem from="1470563247268" duration="602000" />
+      <workItem from="1470578369739" duration="642000" />
+      <workItem from="1476044003151" duration="1000" />
+      <workItem from="1476257405027" duration="1023000" />
+      <workItem from="1476260287833" duration="1906000" />
+      <workItem from="1476262723851" duration="572000" />
+      <workItem from="1476370939786" duration="56000" />
+      <workItem from="1476373253952" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11017000" />
+    <option name="totallyTimeSpent" value="15222000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2635432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32312566" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20677084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14120126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -356,120 +522,470 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/vendor/yiisoft/yii2/db/ActiveQuery.php" />
-    <entry file="file://$PROJECT_DIR$/admin/models/Language.php" />
-    <entry file="file://$PROJECT_DIR$/admin/vendor/brussens/yii2-bootstrap-select/Widget.php" />
-    <entry file="file://$PROJECT_DIR$/admin/vendor/yiisoft/yii2/helpers/BaseHtml.php" />
-    <entry file="file://$PROJECT_DIR$/admin/views/site/contact_OLD.php" />
-    <entry file="file://$PROJECT_DIR$/admin/vendor/yiisoft/yii2/helpers/BaseArrayHelper.php" />
-    <entry file="file://$PROJECT_DIR$/admin/migrations/m160525_222059_simple_page.php" />
-    <entry file="file://$PROJECT_DIR$/admin/migrations/m160525_201240_language.php" />
-    <entry file="file://$PROJECT_DIR$/admin/models/SimplePageLanguage.php" />
-    <entry file="file://$PROJECT_DIR$/admin/models/SimplePage.php" />
-    <entry file="file://$PROJECT_DIR$/admin/views/site/contact.php" />
-    <entry file="file://$PROJECT_DIR$/admin/views/layouts/main.php" />
-    <entry file="file://$PROJECT_DIR$/admin/views/site/leasing.php" />
-    <entry file="file://$PROJECT_DIR$/www/.travis.yml" />
-    <entry file="file://$PROJECT_DIR$/www/karma.conf.js" />
-    <entry file="file://$PROJECT_DIR$/api/composer.json">
+    <entry file="file://$PROJECT_DIR$/api/vendor/yiisoft/yii2/db/QueryTrait.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state vertical-scroll-proportion="-13.730769" vertical-offset="4828" max-vertical-offset="6681">
+          <caret line="309" column="20" selection-start-line="309" selection-start-column="20" selection-end-line="309" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/.bowerrc">
+    <entry file="file://$PROJECT_DIR$/api/vendor/yiisoft/yii2/db/ActiveRecord.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="4625" max-vertical-offset="10982">
+          <caret line="291" column="27" selection-start-line="291" selection-start-column="27" selection-end-line="291" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/models/SimplePage.php">
+    <entry file="file://$PROJECT_DIR$/public/migrations/m161014_092313_FeatureEditView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.30494037" vertical-offset="127" max-vertical-offset="1020">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <marker date="1476438301395" expanded="true" signature="-1:-1" placeholder="select `fhl`..." />
+            <marker date="1476438301395" expanded="true" signature="-1:-1" placeholder="select `fhl`..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/models/User.php">
+    <entry file="file://$PROJECT_DIR$/public/vendor/yiisoft/yii2/db/ActiveQuery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.5" vertical-offset="11943" max-vertical-offset="13583">
+          <caret line="718" column="20" selection-start-line="718" selection-start-column="20" selection-end-line="718" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/vendor/yiisoft/yii2/rest/Controller.php">
+    <entry file="file://$PROJECT_DIR$/public/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state vertical-scroll-proportion="-3.3818183" vertical-offset="205" max-vertical-offset="1122">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/json.php" />
-    <entry file="file://$PROJECT_DIR$/api/config/web.php">
+    <entry file="file://$PROJECT_DIR$/public/vendor/yiisoft/yii2/base/Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.3475298" vertical-offset="5882" max-vertical-offset="17051">
+          <caret line="370" column="34" selection-start-line="370" selection-start-column="20" selection-end-line="370" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/controllers/SiteController.php" />
-    <entry file="file://$PROJECT_DIR$/api/vendor/yiisoft/yii2/rest/ActiveController.php">
+    <entry file="file://$PROJECT_DIR$/public/models/FeatureLanguage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/controllers/PageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/runtime/logs/app.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117742">
-          <caret line="6926" column="1" selection-start-line="6926" selection-start-column="1" selection-end-line="6926" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/vendor/froala/yii2-froala-editor/FroalaEditorAsset.php" />
-    <entry file="file://$PROJECT_DIR$/www/bower.json" />
-    <entry file="file://$PROJECT_DIR$/www/app/bower_components/angular/angular.js" />
-    <entry file="file://$PROJECT_DIR$/www/app/modules/about/view1_test.js" />
-    <entry file="file://$PROJECT_DIR$/www/app/bower_components/angular-translate/angular-translate.js" />
-    <entry file="file://$PROJECT_DIR$/www/app/modules/about/about.html" />
-    <entry file="file://$PROJECT_DIR$/admin/migrations/m130524_201442_init.php" />
-    <entry file="file://$PROJECT_DIR$/www/app/components/version/version.js" />
-    <entry file="file://$PROJECT_DIR$/www/app/modules/index/index.html" />
-    <entry file="file://$PROJECT_DIR$/www/app/modules/index/indexController.js" />
-    <entry file="file://$PROJECT_DIR$/www/app/modules/index/indexFactory.js" />
-    <entry file="file://$PROJECT_DIR$/www/app/modules/leasing/leasingController.js" />
-    <entry file="file://$PROJECT_DIR$/www/app/modules/leasing/leasingFactory.js" />
-    <entry file="file://$PROJECT_DIR$/www/app/modules/about/aboutController.js" />
-    <entry file="file://$PROJECT_DIR$/www/app/assets/js/app.js" />
-    <entry file="file://$PROJECT_DIR$/www/app/modules/about/aboutFactory.js" />
-    <entry file="file://$PROJECT_DIR$/www/app/modules/leasing/leasing.html" />
-    <entry file="file://$PROJECT_DIR$/admin/migrations/m160626_203635_params.php" />
-    <entry file="file://$PROJECT_DIR$/www/app/assets/background.png" />
-    <entry file="file://$PROJECT_DIR$/www/app/assets/css/app.css" />
-    <entry file="file://$PROJECT_DIR$/www/app/index.html" />
-    <entry file="file://$PROJECT_DIR$/www/app/components/navbar/navbar.js" />
-    <entry file="file://$PROJECT_DIR$/www/app/components/navbar/navbar.html" />
-    <entry file="file://$PROJECT_DIR$/assets/css/flag-icon.css" />
-    <entry file="file://$PROJECT_DIR$/public/controllers/ModelsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/models/CarFeature.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-40.23077" vertical-offset="229" max-vertical-offset="1479">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="76" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/models/Models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="15.692307" vertical-offset="765" max-vertical-offset="2431">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/car/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="357">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/yiisoft/yii2/db/ActiveRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3475298" vertical-offset="5049" max-vertical-offset="10982">
+          <caret line="317" column="27" selection-start-line="317" selection-start-column="27" selection-end-line="317" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/yiisoft/yii2/widgets/ActiveField.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3475298" vertical-offset="5780" max-vertical-offset="13158">
+          <caret line="362" column="20" selection-start-line="362" selection-start-column="20" selection-end-line="362" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/models/Feature.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.692308" vertical-offset="1733" max-vertical-offset="2346">
+          <caret line="129" column="111" selection-start-line="129" selection-start-column="101" selection-end-line="129" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/models/CarFeatureHasLanguage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.807693" vertical-offset="1079" max-vertical-offset="1666">
+          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/car/fields/_input.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="340">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/car/fields/_price.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="357">
+          <caret line="14" column="94" selection-start-line="14" selection-start-column="94" selection-end-line="14" selection-end-column="94" />
+          <folding>
+            <element signature="e#6#29#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/yiisoft/yii2/helpers/BaseHtml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3475298" vertical-offset="7395" max-vertical-offset="36210">
+          <caret line="456" column="27" selection-start-line="456" selection-start-column="27" selection-end-line="456" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/car/fields/_checkbox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="578">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="e#6#29#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/car/fields/_date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="578">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="e#10#37#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/migrations/m160807_215316_features.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.0" vertical-offset="663" max-vertical-offset="2584">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <marker date="1476551532208" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1476551532208" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1476551532208" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1476551532208" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1476551532208" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1476551532208" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1476551532208" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/models/FeatureEdit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1153846" vertical-offset="438" max-vertical-offset="1054">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/car/fields/_dropdown.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="680">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#29#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/2amigos/yii2-file-upload-widget/src/views/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="952">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/messages/lv-LV/models.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/2amigos/yii2-file-upload-widget/src/messages/lv-LV/fileupload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="289">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/2amigos/yii2-file-upload-widget/src/messages/en/fileupload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11584327" vertical-offset="0" max-vertical-offset="587">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/2amigos/yii2-file-upload-widget/src/FileUploadUI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3818183" vertical-offset="1378" max-vertical-offset="2261">
+          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/web/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.689655" vertical-offset="6046" max-vertical-offset="6630">
+          <caret line="379" column="20" selection-start-line="379" selection-start-column="20" selection-end-line="379" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/yiisoft/yii2/web/UploadedFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="2363" max-vertical-offset="4063">
+          <caret line="160" column="42" selection-start-line="160" selection-start-column="42" selection-end-line="160" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/config/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-38.576923" vertical-offset="0" max-vertical-offset="1496">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_defines.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3475298" vertical-offset="11951" max-vertical-offset="23069">
+          <caret line="715" column="9" selection-start-line="715" selection-start-column="9" selection-end-line="715" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/yiisoft/yii2/helpers/BaseFileHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26064736" vertical-offset="5083" max-vertical-offset="12206">
+          <caret line="315" column="27" selection-start-line="315" selection-start-column="27" selection-end-line="315" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/config/params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="238">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.192308" vertical-offset="0" max-vertical-offset="748">
+          <caret line="37" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.2363634" vertical-offset="851" max-vertical-offset="2142">
+          <caret line="69" column="59" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/car/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.1923075" vertical-offset="324" max-vertical-offset="1921">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="e#7#28#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/models/Car.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.307692" vertical-offset="1470" max-vertical-offset="2176">
+          <caret line="116" column="88" selection-start-line="116" selection-start-column="88" selection-end-line="116" selection-end-column="88" />
+          <folding>
+            <element signature="e#30#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/car/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.0" vertical-offset="144" max-vertical-offset="799">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="e#6#27#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/controllers/FeatureController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3818183" vertical-offset="1089" max-vertical-offset="4012">
+          <caret line="75" column="33" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="33" />
+          <folding>
+            <element signature="e#35#66#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/controllers/ModelsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.509091" vertical-offset="2672" max-vertical-offset="3230">
+          <caret line="175" column="23" selection-start-line="175" selection-start-column="23" selection-end-line="175" selection-end-column="23" />
+          <folding>
+            <element signature="e#35#43#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/yiisoft/yii2/db/BaseActiveRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="9690" max-vertical-offset="27166">
+          <caret line="594" column="20" selection-start-line="594" selection-start-column="20" selection-end-line="594" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/controllers/CarController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.327273" vertical-offset="2482" max-vertical-offset="5882">
+          <caret line="160" column="59" selection-start-line="160" selection-start-column="59" selection-end-line="160" selection-end-column="59" />
+          <folding>
+            <element signature="e#35#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/car/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3454547" vertical-offset="131" max-vertical-offset="748">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#28#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/car/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="459">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/car/_modelList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="289">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/car/_carView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="629">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <marker date="1476571215004" expanded="true" signature="384:417" placeholder="..." />
+            <marker date="1476571215004" expanded="true" signature="590:1348" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/car/pictures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.923077" vertical-offset="67" max-vertical-offset="782">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#44#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.807693" vertical-offset="1912" max-vertical-offset="2567">
+          <caret line="138" column="32" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/car/fields/_text.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.418182" vertical-offset="153" max-vertical-offset="901">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="76" />
+          <folding>
+            <element signature="e#6#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/vendor/froala/yii2-froala-editor/FroalaEditorWidget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8363637" vertical-offset="2296" max-vertical-offset="4828">
+          <caret line="144" column="26" selection-start-line="144" selection-start-column="13" selection-end-line="144" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/site/leasing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.516184" vertical-offset="360" max-vertical-offset="1037">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="e#6#53#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -13,8 +13,11 @@ nbproject
 Thumbs.db
 
 # composer vendor dir
-
 /vendor
+
+# image folders
+/web/images/models/**/*
+/web/images/cars/**/*
 
 # composer itself is not needed
 composer.phar
