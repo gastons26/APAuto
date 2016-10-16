@@ -101,6 +101,14 @@ class Car extends \yii\db\ActiveRecord
         return $this->hasMany(CarFeature::className(), ['car_id' => 'id']);
     }
 
+    public function getDescription() {
+        return $this->hasOne(CarFeature::className(), ['car_id' => 'id'])->where(['feature_id' => Feature::DESCRIPTION]);
+    }
+
+    public function getPrice() {
+        return $this->hasOne(CarFeature::className(), ['car_id' => 'id'])->where(['feature_id' => Feature::PRICE]);
+    }
+
     public function getFirstImage() {
 
         $path = Yii::$app->basePath.Yii::$app->params['carImagePath']. $this->id. DIRECTORY_SEPARATOR . 'thumbs' . DIRECTORY_SEPARATOR;

@@ -1,3 +1,73 @@
 <h1>{{'Kontakti' | translate}}</h1>
 
-<p ng-bind-html="content"></p>
+<div class="row">
+    <div class="col-sm-4" ng-bind-html="content"></div>
+    <div class="col-sm-8">
+        <div id="map" style="height: 300px;"></div>
+        <script>
+            function initMap() {
+                //57.232731, 22.561015
+                var uluru = {lat: 57.232731, lng: 22.561015};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 14,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyU54zDVUSAbVdD6pNVxbeLjGgu_-vUug&callback=initMap">
+        </script>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <h3>{{'Sazinies ar mums' | translate}}</h3>
+
+        <form name="contactMe" class="form-horizontal" data-toggle="validator" role="form">
+
+            <div class="form-group" ng-class="{ 'has-error': contactMe.name.$touched && contactMe.name.$invalid }">
+                <label class="col-xs-2 control-label">{{'Vārds' | translate}}: </label>
+                <div class="col-xs-10">
+                    <input type="text" class="form-control col-sm-10" name="name" ng-model="contactForm.name" ng-model-options="{ updateOn: 'blur' }"  required />
+                </div>
+                <div role="alert">
+                    <span class="error" ng-show="contactMe.name.$error.required">
+                        Required!
+                    </span>
+                </div>
+            </div>
+
+            <div class="form-group" ng-class="{ 'has-error': contactMe.mail.$valid }">
+                <label class="col-xs-2 control-label">{{'E-pasts' | translate}}: </label>
+                <div class="col-xs-10">
+                    <input type="email" class="form-control col-sm-10" name="mail" ng-model="contactForm.mail" />
+                </div>
+                <div role="alert">
+                    <span class="error" ng-show="contactMe.mail.$error.required">
+                        Required!
+                    </span>
+                    <span class="error" ng-show="contactMe.mail.$error.email">
+                        Not valid email!
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+
+
+        <label>Vārds: </label>
+        <label>Uzvārds: </label>
+        <label>Epasts: </label>
+        <label>Telefona Nr.:</label>
+        <label>Jautājums: </label>
+    </div>
+</div>

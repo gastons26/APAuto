@@ -8,6 +8,7 @@ $title = $car->modelObject->parentModel->name.' '.$car->modelObject->name;
 <div class="row">
     <div class="col-sm-5">
         <h4 style="float: left; padding-right: 10px"><?=$title?></h4>
+        <?= Html::a('Uz sarakstu', ['index'], ['class' => 'btn btn-default']) ?>
         <?= Html::a('Atpakaļ', Yii::$app->request->referrer, ['class' => 'btn btn-default']) ?>
     </div>
 </div>

@@ -69,6 +69,7 @@ class CarController extends Controller
     {
         $cars = $this->getCarModels();
         $query = (($id!==null) ? Car::find()->joinWith(['modelObject'])->where('parent_model=:id', [':id'=>$id]) : Car::find());
+        $query->with(['description', 'price', 'modelObject.parentModel']);
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
@@ -105,7 +106,7 @@ class CarController extends Controller
             {
                 $this->saveAllFeatures($car, Yii::$app->request->post('FeatureEdit'));
 
-                return $this->redirect(['view', 'id' => $car->id]);
+                return $this->redirect(['pictures', 'id' => $car->id]);
             }
         }
 
@@ -129,7 +130,7 @@ class CarController extends Controller
                 $car->unlinkAll('carFeatures', true);
                 $this->saveAllFeatures($car, Yii::$app->request->post('FeatureEdit'));
 
-                return $this->redirect(['view', 'id' => $car->id]);
+                return $this->redirect(['pictures', 'id' => $car->id]);
             }
         } else {
             $features = FeatureEdit::getParentFeaturesForEdit();

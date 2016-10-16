@@ -31,7 +31,8 @@ use yii\helpers\Url;
                                             'color', 'inlineStyle', 'paragraphStyle', '|', 'paragraphFormat', 'align', 'formatOL', 'formatUL', 'outdent', 'indent', 'quote', 'insertHR',  'undo', 'redo', 'clearFormatting'],
                     'toolbarButtonsSM' => ['fullscreen', 'bold', 'italic', 'underline', 'strikeThrough', 'subscript', 'superscript', 'fontFamily', 'fontSize', '|',
                                             'color', 'inlineStyle', 'paragraphStyle', '|', 'paragraphFormat', 'align', 'formatOL', 'formatUL', 'outdent', 'indent', 'quote', 'insertHR',  'undo', 'redo', 'clearFormatting'],
-                    'fileUploadURL' => Url::to(['site/upload-editor-file']),
+                    'imageUploadURL' => Url::to(['site/upload']),
+                    'imageUploadParam'=> 'editor_file',
                     'theme' =>'royal',//optional: dark, red, gray, royal
                     'language'=>'lv', // optional: ar, bs, cs, da, de, en_ca, en_gb, en_us ...
                     'height' => 200

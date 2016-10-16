@@ -9,7 +9,14 @@ use yii\helpers\Html;
 $this->title = 'Pievienot jaunu automašīnu';
 ?>
 <div class="car-create">
-    <h4><?= Html::encode($this->title) ?></h4><hr />
-    <br />
+
+    <div class="row">
+        <h4 class="pull-left" style="margin-right: 5px;"> <?= Html::encode($this->title) ?>  </h4>
+        <?= Html::a('Uz sarakstu', ['index'], ['class' => 'btn btn-default']) ?>
+    </div>
+
+    <hr style="margin-bottom: 10px;" />
+
+
     <?= $this->render('_form', compact('car','features')) ?>
 </div>

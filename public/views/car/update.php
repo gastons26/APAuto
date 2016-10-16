@@ -9,9 +9,9 @@ $this->title = 'Labojam: ' . $car->modelObject->parentModel->name.' '.$car->mode
 ?>
 <div class="car-update">
     <div class="row">
-        <h4 class="pull-left"><?= Html::encode($this->title) ?> </h4>
+        <h4 class="pull-left" style="margin-right: 5px;"> <?= Html::encode($this->title) ?>  </h4>
+        <?= Html::a('Uz sarakstu', ['index'], ['class' => 'btn btn-default']) ?>
         <?= Html::a('Atpakaļ', Yii::$app->request->referrer, ['class' => 'btn btn-default']) ?>
-
     </div>
 
     <hr style="margin-bottom: 10px;" />

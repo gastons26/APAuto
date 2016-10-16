@@ -9,9 +9,14 @@ use app\models\SimplePage;
 use app\models\SimplePageLanguage;
 use app\models\User;
 use Yii;
+use yii\db\Expression;
 use yii\filters\AccessControl;
+use yii\helpers\Json;
+use yii\web\BadRequestHttpException;
 use yii\web\Controller;
 use app\models\LoginForm;
+use yii\web\Response;
+use yii\web\UploadedFile;
 
 class SiteController extends Controller
 {
@@ -36,6 +41,15 @@ class SiteController extends Controller
                 ],
             ]
         ];
+    }
+
+    public function beforeAction($action)
+    {
+        if($action->id == 'upload')
+        {
+            return true;
+        }
+        return parent::beforeAction($action);
     }
 
     public function actions()
@@ -135,8 +149,32 @@ class SiteController extends Controller
         return $this->render('change_password', compact('model'));
     }
 
-    public function actionUploadEditorFile() {
-        var_dump($_POST, $_GET);
+    public function actionUpload() {
+        Yii::$app->response->format = Response::FORMAT_JSON;
+
+        $imageFile = UploadedFile::getInstanceByName('editor_file');
+
+
+
+        $path = Yii::$app->basePath.Yii::$app->params['editorImagePath'];
+        $url = Yii::$app->request->baseUrl.Yii::$app->params['editorImageUrl'];
+
+        if (!is_dir($path)) {
+            mkdir($path,0777,true);
+        }
+
+        if($imageFile) {
+            $uid = uniqid(time(), true);
+            $fileName = $imageFile->baseName.$uid.'.'.$imageFile->extension;
+            $filePath = $path . $fileName;
+
+            if ($imageFile->saveAs($filePath)) {
+                return [
+                    'link' => $url . $fileName
+                ];
+            }
+        }
+        throw new BadRequestHttpException("Neizdevās ielādēt bildi");
     }
 
     private function getLanguages($asArray=false)

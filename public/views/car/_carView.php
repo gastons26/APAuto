@@ -8,11 +8,13 @@
             <?=Html::img($model->getFirstImage(), ['style'=>'width: 100px;']); ?>
         </div>
         <div>
-            <label>Cena:</label> 123213 EUR
+            <label>Modelis: </label> <?=$model->modelObject->parentModel->name.' '.$model->modelObject->name;?><br />
+            <label>Cena:</label> <?=$model->price->carFeatureHasLanguages[0]->value; ?> EUR
             <?=($model->sold!==null) ? '<span style="color:#ff0000; font-weight: bold;">PĀRDOTS</span>': ''?>
             <br />
             <label>Izveidots:</label> <?=$model->created;?>
             <hr />
+            <?=$model->description->carFeatureHasLanguages[0]->value; ?>
         </div>
     </div>
     <div class="col-sm-2">
